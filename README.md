@@ -91,3 +91,41 @@ El **portal del empleado** contará con cuatro funcionalidades principales que l
 
 
 ![alt text](<WIREFRAM BAJA FIDELIDAD/Aplicación mobil/Funcionalidades administrador.png>)
+
+
+
+
+
+### Entorno Web
+
+# Wireframe de Aplicación Web - Sistema de Asistencia
+
+### 1. Página de Inicio - Marcador de Asistencia (Iniciar Sesión)
+Se muestra un formulario de inicio de sesión con campos para ingresar usuario y contraseña, junto con un enlace para recuperar la contraseña en caso de olvido.
+
+La página está diseñada para que los usuarios se autentiquen y accedan al sistema de asistencia. La interfaz es sencilla y directa, con un enfoque en facilitar el acceso rápido.
+
+![Marcador de Asistencia](<WIREFRAM BAJA FIDELIDAD/Entorno web/inicar-sesion.png>)
+
+### 2. Vista de Administrador
+Una vez autenticado, el administrador tiene acceso a una tabla de usuarios, donde puede crear, editar, copiar, eliminar y exportar información de los trabajadores.
+La tabla incluye detalles como nombre, apellido, sexo, correo electrónico, número de teléfono, edad, contraseña y cargo.
+También cuenta con una función de búsqueda que permite filtrar la información. La interfaz es funcional, pensada para que el administrador gestione fácilmente los datos de los empleados.
+
+![Vista de Administrador](<WIREFRAM BAJA FIDELIDAD/Entorno web/vista-administrador.png>)
+
+### 3. Vista de Asistencia - Página de Profesor
+
+Esta sección presenta una tabla con información sobre la asistencia de los empleados, permitiendo ver detalles de ausencias, retardos, almuerzos extendidos y retiros tempranos.
+Se pueden aplicar filtros en cada categoría para una revisión específica.
+La tabla incluye campos como ID, nombre, apellido, cargo, planta, horario de trabajo (entrada y salida), descanso y almuerzo.
+
+![Página de Profesor](<WIREFRAM BAJA FIDELIDAD/Entorno web/vista-professor.png>)
+
+### 4. Vista de Usuario
+
+En esta página se muestra un perfil de usuario detallado, con información de contacto, cargo y horario laboral semanal.
+Incluye un calendario mensual donde se registran las asistencias diarias (por ejemplo, "T" para trabajo y "D" para descanso).
+También muestra el primer y último acceso al sistema, junto con un resumen de horas trabajadas.
+
+![Vista de Usuario](<WIREFRAM BAJA FIDELIDAD/Entorno web/vista-usuario.png>)
