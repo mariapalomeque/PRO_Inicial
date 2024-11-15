@@ -855,7 +855,7 @@ Al abrir la aplicación, el usuario es recibido con la pantalla de bienvenida qu
 
 Después de seleccionar el rol , el usuario será redirigido a la pantalla de inicio de sesión donde se le solicitarán sus credenciales. Hay dos campos de entrada: uno para correo electrónico y otro para contraseña. El botón azul con la etiqueta "Iniciar sesión" le permite ser dirigido al portal después de completar los campos. 
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Inicio de sesion.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Inicio de sesion.png>)
 
 ## Portal alumno
 
