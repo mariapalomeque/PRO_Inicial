@@ -145,6 +145,8 @@ En paralelo, los estudiantes de **DAM y DAW** trabajarán en la creación de los
 
 Además, pueden acceder al **Kanban** de este primer sprint a través del siguiente enlace: [Trello Kanban Sprint 2](https://trello.com/invite/b/67321584c468dfa0eb23f2eb/ATTI4ba9fd024d197d8f4dcb76bcb95f7ad8376B9ACF/a02-4-sprint-2), donde podrán seguir el progreso de las tareas asignadas. También pueden revisar el **Figma del wireframe de baja fidelidad** en este enlace: [Wireframe Proyecto - Figma](https://www.figma.com/design/LIGys4AhyOJA7BgPnojR0F/WIREFRAME-PROYECTO?node-id=2003-368&t=Af2eXti2xyl8ThtI-1). En la carpeta de **Wireframe de baja fidelidad**, podrán encontrar las imágenes de los dos wireframes desarrollados hasta el momento.
 
+---
+
 ## Diseño de la base de datos de control de presencia
 
 Este proyecto busca crear un sistema que registre quién entra y sale del colegio de forma sencilla y eficiente. Para lograrlo, diseñamos una base de datos que organiza información como los datos de alumnos, profesores y administradores, sus horarios y los registros de entrada y salida.
@@ -152,6 +154,8 @@ Este proyecto busca crear un sistema que registre quién entra y sale del colegi
 Además, hemos incluido detalles como los roles de cada usuario y un historial de cambios para que todo quede bien documentado. Esta base de datos será el corazón del sistema, conectando los datos con una aplicación móvil donde cada usuario podrá ver su información de forma clara y ordenada. 
 
 ![Diseño completo de la base de datos](<Diagrama BBDD/diseño UML.PNG>)
+
+---
 
 ### Las tablas de la base de datos
 
@@ -254,9 +258,9 @@ Durante el desarrollo, podríamos añadir nuevas tablas, modificar algunas exist
 
 En resumen, el diseño actual es sólido, pero está abierto a cambios que ayudarán a que el proyecto funcione aún mejor.
 
-### Wireframe De Entorno Web
+---
 
-# Wireframe de Aplicación Web - Sistema de Asistencia
+## Wireframe de Aplicación Web - Sistema de Asistencia
 
 ### 1. Página de Inicio (Iniciar Sesión)
 
@@ -829,3 +833,137 @@ Color de fondo: #0288d1
 Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
 
 ![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Professor - Área personal.png>)
+
+---
+
+## Wireframe de alta fidelidad aplicación mobil 
+
+### Guia de estilos
+
+El diseño de la aplicación prioriza la claridad, la funcionalidad y la coherencia visual. Utiliza una paleta de colores cuidadosamente elegida para lograr un equilibrio entre funcionalidad y estética; el color principal es un tono azul brillante, identificado como #2596BE, y se aplica a botones, elementos interactivos y notificaciones importantes para llamar la atención del usuario sobre acciones clave. 
+El color de fondo principal elegido fue #F5F5F5, un gris muy claro que crea un ambiente visual limpio y profesional, reduce la fatiga visual y resalta los elementos interactivos. Además de esta paleta de colores, el uso de colores blanco y negro para textos y elementos gráficos garantiza un contraste claro y una legibilidad excelente.
+
+La fuente elegida para el sistema es Inter, una fuente moderna y universal, perfectamente adaptada a las necesidades de las interfaces digitales.Esta fuente tiene un diseño limpio y legible incluso en tamaños pequeños. Los títulos y subtítulos están en negrita para crear una jerarquía visual clara, mientras que el texto de respaldo y las descripciones están en fuente normal para una lectura fácil y sin distracciones.
+
+En términos de gráficos, se mantiene la coherencia visual. Esto mejora la identidad del sistema. Aunque estos íconos no vienen en el mismo paquete, todos presentan diseños minimalistas con líneas finas y limpias. Esto garantiza que los iconos estén visualmente alineados entre sí, lo que proporciona a los usuarios una interpretación sencilla e instantánea.
+
+La estructura general del sistema mantiene una estética minimalista y funcional, manteniendo la coherencia visual con espacios en blanco utilizados estratégicamente para evitar la saturación visual. Hay suficiente espacio entre elementos para garantizar una navegación fluida y ordenada. Los formularios y los componentes visuales son concisos y se centran en lo esencial, añadiendo claridad a la presentación de la información.
+
+### Pantalla inicio de sesion, y registro
+
+Al abrir la aplicación, el usuario es recibido con la pantalla de bienvenida que muestra el logotipo del Institut TIC de Barcelona junto al nombre de la institución. Debajo del logotipo, se presentan tres botones grandes: "Alumno," "Maestro" y "Administrador." Estos botones permiten seleccionar el rol, dirigiendo al usuario a la pantalla de inicio de sesión correspondiente. La interfaz es simple y limpia, orientada a una fácil navegación desde el primer acceso.
+
+Después de seleccionar el rol , el usuario será redirigido a la pantalla de inicio de sesión donde se le solicitarán sus credenciales. Hay dos campos de entrada: uno para correo electrónico y otro para contraseña. El botón azul con la etiqueta "Iniciar sesión" le permite ser dirigido al portal después de completar los campos. 
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Inicio de sesion.png>)
+
+## Portal alumno
+
+### Pantalla horario 
+
+Esta pantalla muestra el horario de clases del alumno para el curso actual. En la parte superior, se presenta una opción de selección de curso, permitiendo al alumno escoger el año académico en caso de que tenga horarios distintos. A continuación, se despliega una tabla organizada que muestra las materias, horas y ubicaciones de cada clase. Un botón destacado en color azul permite descargar el horario en formato PDF para consultarlo offline, una funcionalidad útil para facilitar el acceso al horario en cualquier momento.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Alumno/Horario.png>)
+
+### Pantalla registro de asistencia 
+
+En esta vista, el alumno puede revisar su historial de asistencias. La pantalla muestra un resumen semanal, organizado por días, con horas de entrada y salida registradas para cada clase o actividad. Los datos se presentan de forma estructurada para que el alumno pueda fácilmente ver su historial de entradas y salidas de el instituto en una misma pantalla.
+
+Tambien es posible consultar semanas anteriores, presionado el simbolo de luba en la parte superior se desplega un calendario, con el cual el alumno tiene la posibilidad de seleccionar una semana específica.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Alumno/Asistencias.png>)
+
+### Pantalla perfil 
+
+La sección de perfil permite al alumno ver su información personal. En esta pantalla se muestran campos como nombre, email, teléfono, clase y curso, organizados en una lista clara. También hay un botón para editar la foto de perfil y un botón destacado en la parte inferior para cerrar sesión. Esta pantalla proporciona acceso rápido a la información de contacto y detalles académicos del alumno.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Alumno/Perfil.png>)
+
+
+## Portal profesorado
+
+### Pantalla horario 
+
+Muestra el horario del curso. la estructura es similar a la pantalla de horario del alumno, pero con la posibilidad de editar el horario. Incluye un botón en azul para descargar el horario en formato PDF, facilitando el acceso offline y la revisión en cualquier momento.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Horario.png>)
+
+### Pantalla asistencias
+
+Esta pantalla es un panel de control para la gestión de asistencias. En el centro de la pantalla, el profesor tiene dos opciones: "Asistencia Hoy" y "Consultar Asistencias." 
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Asistencias.png>)
+
+### Pantalla asistencias hoy
+
+Aquí el profesor ve una lista de las clases del día, con detalles sobre el inicio y el fin de cada clase, debera seleccionar la que desee. 
+
+Tras las seleccióm aparecera la listta de alumnos de dicho curso, podra marcar la asistencia de los estudiantes en una clase específica. Para cada alumno, el profesor puede seleccionar entre varias opciones: "Asistencia," "Retraso," "Falta" y "Falta Justificada." Cada opción está claramente identificada, permitiendo al profesor llevar un control preciso de la asistencia. Esta funcionalidad es ideal para un proceso rápido durante el pase de lista en clases o reuniones.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Asistencias hoy.png>)
+
+### Pantalla consultar asistencias 
+
+En esta pantalla, el profesor puede seleccionar una fecha específica en un calendario visual, se aabrira un listado de aulas.ermite al profesor consultar la asistencia organizada por aula, facilitando la visualización de las clases que ha dado en cada espacio y acceder a los registros de asistencia de esa jornada. Esta funcionalidad es útil para revisar días específicos o analizar patrones de asistencia en fechas concretas.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Consultar asistencia.png>)
+
+### Pantalla perfil
+
+La sección de perfil permite al profesor ver  su información personal. En esta pantalla se muestran campos como nombre, email, teléfono, materias que realiza, organizados en una lista clara. También hay un botón para editar la foto de perfil y un botón destacado en la parte inferior para cerrar sesión. Esta pantalla proporciona acceso rápido a la información de contacto y detalles académicos del alumno.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Perfil.png>)
+
+## Portal administrador
+
+### Pantalla horario
+
+Similar a la vista del profesor, pero con la opción adicional de crear, modificar y gestionar los horarios de toda la institución. El administrador puede seleccionar un curso o grupo y editar directamente los detalles del horario, asegurando que los cambios se reflejen en el sistema. 
+
+En la parte inferior, se encuentra la barra de navegación que incluye los íconos de diferentes secciones: "Horario", "Registro", "Asistencias" y "Perfil", permitiendo al usuario desplazarse fácilmente entre las distintas funciones de la aplicación.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Horario.png>)
+
+### Creación , modificación o eliminación de un usuario
+
+sta pantalla sirve como panel de administración de usuarios, donde el administrador puede gestionar los registros de alumnos y profesores. Hay opciones para registrar nuevos usuarios o editar y eliminar perfiles existentes, organizadas de manera que facilita la navegación entre los perfiles.
+
+Si selecciona la opcion de registrar nuevo alumno se le abrira una pantalla donde podra  crear nuevos perfiles. Se incluyen campos para ingresar correo electrónico, contraseña. Un botón "Crear cuenta" permite guardar el registro y habilitar el acceso del alumno al sistema. 
+
+Si selecciona Editar / Eliminar profesor podra modificar y gestionar la información de los profesores registrados en el sistema. En la parte superior, se incluye un campo de búsqueda donde se puede introducir el correo electrónico del profesor para localizar su perfil rápidamente.
+
+En el área de detalles, se muestra información clave sobre el profesor: su nombre completo, dirección de correo electrónico, número de teléfono y las materias que imparte. Cada dato puede ser editado seleccionando el campo correspondiente.
+
+Debajo de esta información, se encuentra el botón azul "Guardar modificaciones", que permite al administrador confirmar y aplicar los cambios realizados en los datos del profesor.
+
+Más abajo, se ofrece una opción de eliminación de cuenta, indicada con un texto en rojo que dice "ELIMINAR CUENTA". Este botón permite borrar completamente el perfil del profesor del sistema, una acción que suele ser irreversible y requiere precaución.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Registro.png>)
+
+### Pantalla Consultar asistencias 
+
+Esta pantalla permite al administrador seleccionar entre dos opciones relacionadas con la gestión de asistencias de los alumnos.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Consultar asistencia.png>)
+
+En la parte superior de la pantalla se presenta la pregunta "¿Qué deseas ver ahora?" como una invitación al usuario para elegir una acción. Debajo de esta pregunta, hay dos botones con íconos ilustrativos y textos descriptivos:
+
+Consultar asistencias: Esta opción dirige al usuario a una vista donde debera sleccionar la fecha y posteriormente la aula que desea cosnultar, y puede revisar los registros de asistencia de los alumnos, incluyendo detalles de horas.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Asistencias.png>)
+
+Registro de accesos de alumnos: Esta opción permite al administrador acceder a un historial detallado de los accesos de los alumnos al edificio o a zonas específicas, ayudando a llevar un control de su movimiento dentro de las instalaciones. Primero, debera sleccionar la clase, luego aparecera el  listado de alumnos y debera seleccionar uno. 
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Accesos alumnos.png>)
+
+
+### Pantalla perfil 
+
+Esta pantalla muestra el perfil del administrador, con su foto, nombre, correo y teléfono. Incluye opciones para editar la foto de perfil y cerrar sesión.
+
+![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Paste.png>)
+
+
+
+
+
