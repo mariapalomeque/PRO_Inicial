@@ -135,6 +135,16 @@ También muestra el primer y último acceso al sistema, junto con un resumen de 
 
 ![alt text](<Recursos visuales/Sprint 2.png>)
 
+En el Sprint 2, el equipo se centrará en establecer las bases tecnológicas que soportarán el proyecto, asegurando tanto la funcionalidad como la cohesión en las interfaces y servicios. Este sprint será fundamental para garantizar que todos los sistemas trabajen en sincronía y se ajusten a los requisitos definidos en la planificación.
+
+Por un lado, los estudiantes de **ASIX** se encargarán del diseño y configuración de la **infraestructura de red y servidores**, un componente esencial para asegurar la conectividad y el soporte necesario para los dispositivos IoT que serán parte del sistema. Dentro de esta misma área, también se trabajará en la integración entre Arduino y AWS, enviando datos desde el dispositivo hasta la nube y visualizando estos datos una vez almacenados en AWS, demostrando la eficacia de la comunicación entre los elementos del proyecto.
+
+Mientras tanto, un estudiante de **DAM** trabajarán en el **diseño  de la base de datos** destinada al control de presencia. Este diseño incluirá la creación de esquemas y estructuras que faciliten la gestión eficiente de los datos.
+
+En paralelo, los estudiantes de **DAM y DAW** trabajarán en la creación de los **wireframes de alta fidelidad**, cada uno enfocado en su especialidad. La estudiante de **DAM** se encargarán del diseño del wireframe de alta fidelidad para la **aplicación móvil**, mientras que el estudiante de **DAW** desarrollarán el wireframe de alta fidelidad para la **web**. Estos diseños tendrán un alto nivel de detalle y reflejarán las funcionalidades clave y la estética general de las plataformas. Asimismo, se colaborará en la elaboración de una guía de estilos que definirá aspectos como colores, tipografías y otros elementos visuales para asegurar la coherencia y uniformidad en todos los componentes del proyecto.
+
+Además, pueden acceder al **Kanban** de este primer sprint a través del siguiente enlace: [Trello Kanban Sprint 2](https://trello.com/invite/b/67321584c468dfa0eb23f2eb/ATTI4ba9fd024d197d8f4dcb76bcb95f7ad8376B9ACF/a02-4-sprint-2), donde podrán seguir el progreso de las tareas asignadas. También pueden revisar el **Figma del wireframe de baja fidelidad** en este enlace: [Wireframe Proyecto - Figma](https://www.figma.com/design/LIGys4AhyOJA7BgPnojR0F/WIREFRAME-PROYECTO?node-id=2003-368&t=Af2eXti2xyl8ThtI-1). En la carpeta de **Wireframe de baja fidelidad**, podrán encontrar las imágenes de los dos wireframes desarrollados hasta el momento.
+
 ## Diseño de la base de datos de control de presencia
 
 Este proyecto busca crear un sistema que registre quién entra y sale del colegio de forma sencilla y eficiente. Para lograrlo, diseñamos una base de datos que organiza información como los datos de alumnos, profesores y administradores, sus horarios y los registros de entrada y salida.
