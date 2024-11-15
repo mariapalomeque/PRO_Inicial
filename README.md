@@ -243,3 +243,579 @@ Este diseño de la base de datos es el punto de partida para nuestra aplicación
 Durante el desarrollo, podríamos añadir nuevas tablas, modificar algunas existentes o hacer mejoras para que la app sea más fácil de crear o funcione de manera más eficiente. Esto es algo normal y parte del proceso de mejorar el sistema mientras seguimos trabajando en él.
 
 En resumen, el diseño actual es sólido, pero está abierto a cambios que ayudarán a que el proyecto funcione aún mejor.
+
+### Wireframe De Entorno Web
+
+# Wireframe de Aplicación Web - Sistema de Asistencia
+
+### 1. Página de Inicio (Iniciar Sesión)
+
+1. Colores Primarios y Secundarios
+Color principal: #0288d1 (Azul claro utilizado en la barra superior)
+Color de acento: #ffffff (Blanco para fondo y elementos de texto principales)
+Color de fondo secundario: #f5f5f5 (Gris claro para secciones secundarias)
+Color de botón: #0288d1 (Azul de botón de acceso)
+Color de enlace: #0288d1 (para enlaces como “¿Olvidó su contraseña?”)
+
+2. Tipografía
+Tipografía principal: Iner (p. ej., Arial, Helvetica)
+Tamaño del título principal (h1): 32px, negrita
+Tamaño de subtítulos (h2, h3): 20-24px, seminegrita
+Tamaño del texto del cuerpo: 16px
+Tamaño de texto de botones y enlaces: 14px, negrita para botones
+
+3. Botones y Formularios
+Botón de acceso:
+Color de fondo: #0288d1
+Color de texto: #ffffff
+Bordes: Redondeados con un radio de 4px
+Hover: Cambio a un tono más oscuro de azul
+Campos de formulario:
+Color de fondo: #ffffff
+Bordes: Gris claro (#cccccc)
+Placeholder: Texto gris claro para guiar al usuario
+
+4. Íconos y Navegación
+Íconos de navegación: Ubicados en la barra superior derecha
+Estilo: Líneas simples, estilo minimalista, color #ffffff
+Tamaño: 24px
+Botones de red social: Estilo en color original de cada red social (Instagram, LinkedIn)
+
+5. Imágenes y Multimedia
+Tamaño de imágenes: Rectangular, con borde redondeado en las esquinas (radio de 8px)
+Ubicación: A la derecha del formulario de acceso, alineada con el texto descriptivo.
+
+6. Footer
+Color de fondo: #0288d1
+Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
+Tamaño de texto: 14px para enlaces y texto de copyright
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Página de Inicio.png>)
+
+
+### 1. Pagina de Usuario - Inici (Alumno)
+
+Colores Principales
+Azul Claro (#00AEEF): Usado en la barra de navegación y como fondo de ciertos botones.
+Blanco (#FFFFFF): Fondo principal de la página.
+Gris Claro (#EAEAEA): Fondo de botones de etiquetas, tablas, y algunos textos.
+Negro/Gris Oscuro (#333333): Color principal para los textos.
+
+2. Tipografía
+Fuente: Roboto o Arial (sans-serif), para una apariencia limpia y moderna.
+Tamaños:
+Título principal ("Inici"): 24px, negrita.
+Subtítulos (como "Detalles Usuario", "Informes"): 16px, negrita.
+Texto de contenido (por ejemplo, correo electrónico, fecha): 14px.
+Texto en tablas: 14px.
+
+3. Componentes y Estilos de Elementos
+Barra de Navegación Superior:
+
+Color de Fondo: Azul claro (#00AEEF).
+Íconos: Tamaño de 18px, color blanco. Íconos de perfil, ajustes y notificaciones alineados a la derecha.
+Enlaces de Navegación: Texto en blanco, tamaño de fuente 16px, negrita. Incluye "Inicio", "Área personal", "Historial de Asistencia" y "Ajustes".
+Botones de Etiquetas (como "Detalles Usuario", "Informes", etc.):
+
+Color de Fondo: Gris claro (#EAEAEA).
+Bordes: Redondeados, con un radio de 5px.
+Tamaño de Fuente: 14px, negrita, color negro.
+Tablas (por ejemplo, "Horario Laboral Semana" y "Calendario"):
+
+Bordes: Finos y grises.
+Celdas: Color de fondo blanco, texto negro o gris oscuro.
+Encabezados de Tabla: Fondo gris claro, texto negro, fuente negrita.
+Tamaño de Fuente: 14px.
+Separación de Filas: Alineación centrada con espaciado generoso entre celdas (p. ej., 10px).
+Sección de Informes:
+
+Texto: Utiliza un estilo simple sin bordes adicionales. Resalta "Horas Trabajadas" y "Resumen de Horas" en negrita.
+Footer:
+
+Color de Fondo: Azul claro (#00AEEF).
+Iconos de Redes Sociales: Colocados a la izquierda, tamaño de 24px.
+Texto de Información Institucional: Centrado, tamaño de fuente 12px, color blanco.
+4. Espaciado y Alineación
+
+Margen Superior e Inferior de Secciones: 20px de margen para una separación clara.
+Padding en Tablas y Botones: 10px para mantener un diseño limpio y ordenado.
+Alineación: Todo el contenido debe estar alineado a la izquierda o centrado para una mejor legibilidad.
+5. Interactividad
+
+Efecto Hover en Navegación: Subrayado en los enlaces de navegación en la barra superior.
+Efecto Hover en Iconos: Ligeramente más oscuro al pasar el cursor.
+Botones: Cambian de color (por ejemplo, a un azul más oscuro) al hacer clic.
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Usuario - Inici.png>)
+
+### 1.1 Pagina de Usuario - Área personal
+
+Colores Principales
+Azul Claro (#00AEEF): Usado en la barra de navegación y como fondo de ciertos botones.
+Blanco (#FFFFFF): Fondo principal de la página.
+Gris Claro (#EAEAEA): Fondo de botones de etiquetas, tablas, y algunos textos.
+Negro/Gris Oscuro (#333333): Color principal para los textos.
+
+2. Tipografía
+Fuente: Roboto o Arial (Iner), para una apariencia limpia y moderna.
+Tamaños:
+Título principal ("Inici"): 24px, negrita.
+Subtítulos (como "Detalles Usuario", "Informes"): 16px, negrita.
+Texto de contenido (por ejemplo, correo electrónico, fecha): 14px.
+Texto en tablas: 14px.
+
+3. Componentes y Estilos de Elementos
+Barra de Navegación Superior:
+
+Color de Fondo: Azul claro (#00AEEF).
+Íconos: Tamaño de 18px, color blanco. Íconos de perfil, ajustes y notificaciones alineados a la derecha.
+Enlaces de Navegación: Texto en blanco, tamaño de fuente 16px, negrita. Incluye "Inicio", "Área personal", "Historial de Asistencia" y "Ajustes".
+Botones de Etiquetas (como "Detalles Usuario", "Informes", etc.):
+
+Color de Fondo: Gris claro (#EAEAEA).
+Bordes: Redondeados, con un radio de 5px.
+Tamaño de Fuente: 14px, negrita, color negro.
+Tablas (por ejemplo, "Horario Laboral Semana" y "Calendario"):
+
+Bordes: Finos y grises.
+Celdas: Color de fondo blanco, texto negro o gris oscuro.
+Encabezados de Tabla: Fondo gris claro, texto negro, fuente negrita.
+Tamaño de Fuente: 14px.
+Separación de Filas: Alineación centrada con espaciado generoso entre celdas (p. ej., 10px).
+Sección de Informes:
+
+Texto: Utiliza un estilo simple sin bordes adicionales. Resalta "Horas Trabajadas" y "Resumen de Horas" en negrita.
+Footer:
+
+Color de Fondo: Azul claro (#00AEEF).
+Iconos de Redes Sociales: Colocados a la izquierda, tamaño de 24px.
+Texto de Información Institucional: Centrado, tamaño de fuente 12px, color blanco.
+
+4. Espaciado y Alineación
+Margen Superior e Inferior de Secciones: 20px de margen para una separación clara.
+Padding en Tablas y Botones: 10px para mantener un diseño limpio y ordenado.
+Alineación: Todo el contenido debe estar alineado a la izquierda o centrado para una mejor legibilidad.
+
+5. Interactividad
+Efecto Hover en Navegación: Subrayado en los enlaces de navegación en la barra superior.
+Efecto Hover en Iconos: Ligeramente más oscuro al pasar el cursor.
+Botones: Cambian de color (por ejemplo, a un azul más oscuro) al hacer clic.
+
+6. Íconos y Elementos Gráficos
+Usa íconos minimalistas y limpios para perfiles, ajustes y notificaciones, alineados con el estilo de Material Design.
+Logos institucionales en el footer deben mantener sus colores originales y no tener efectos adicionales para resaltar la autenticidad.
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Usuario - Área personal.png>)
+
+### 1.2 Pagina de Usuario - Historial de Asistencia
+
+1.Colores Principales
+Verde (#00CC00): Representa "Presente".
+Amarillo (#FFD700): Representa "Retard".
+Rojo (#FF0000): Representa "Absent".
+Azul Claro (#00AEEF): Usado en la barra de navegación.
+Gris Claro (#EAEAEA): Fondo de botones y etiquetas.
+Blanco (#FFFFFF): Fondo principal de la página.
+Negro/Gris Oscuro (#333333): Color principal para los textos.
+
+2. Tipografía
+Fuente: Roboto o Arial (Iner).
+Tamaños:
+Título principal ("Historial de Asistencia"): 24px, negrita.
+Subtítulos (por ejemplo, "Resumen Semanal"): 16px, negrita.
+Texto de contenido: 14px para descripciones y etiquetas.
+Etiquetas de colores (Presente, Retard, Absent): 14px, negrita, en color blanco.
+
+3. Componentes y Estilos de Elementos
+Gráfico de Pastel:
+
+Segmentos de Colores: Verde, Amarillo y Rojo.
+Leyenda: Etiquetas en el lado derecho, con puntos de color correspondientes.
+Texto de Leyenda: Tamaño de fuente 14px, alineado a la derecha del gráfico.
+Tabla de Asistencia:
+
+Bordes: Finos y en color gris.
+Celdas: Fondo blanco, texto en negro.
+Encabezados de Columna: Colores de fondo que coinciden con las etiquetas (Verde, Amarillo, Rojo), con texto en blanco.
+Tamaño de Fuente: 14px.
+Botones de Etiquetas (como "Aula", "Presente", "Retard", "Absent"):
+
+Color de Fondo: Correspondiente al estado (Verde para Presente, Amarillo para Retard, Rojo para Absent).
+Bordes: Redondeados, con un radio de 5px.
+Tamaño de Fuente: 14px, negrita, en blanco.
+Footer:
+
+Color de Fondo: Azul claro (#00AEEF).
+Iconos de Redes Sociales: Colocados a la izquierda, tamaño de 24px.
+Texto de Información Institucional: Centrado, tamaño de fuente 12px, color blanco.
+
+4. Espaciado y Alineación
+Margen Superior e Inferior de Secciones: 20px para separación clara.
+Padding en Gráfico y Tabla: 10px para mantener el diseño limpio.
+Alineación: Contenido principal centrado, con leyenda del gráfico alineada a la derecha.
+
+5. Interactividad
+Efecto Hover en Navegación: Subrayado en los enlaces de navegación en la barra superior.
+Botones de Etiquetas (Aula, Presente, etc.): Cambian de color al pasar el cursor para dar retroalimentación visual.
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Usuario - Historial de Asistencia.png>)
+
+
+### 2 Página de Administrador - Inicio
+
+1. Colores Principales
+Azul Claro (#00AEEF): Usado en la barra de navegación y en los botones de acciones (Create, Edit, Copy, Delete).
+Gris Claro (#EAEAEA): Fondo de los botones y algunos encabezados de tabla.
+Blanco (#FFFFFF): Fondo principal de la página.
+Negro/Gris Oscuro (#333333): Color principal para los textos.
+
+2. Tipografía
+Fuente: Roboto o Arial (-serisansf).
+Tamaños:
+Título principal ("Inicio"): 24px, negrita.
+Botones de Acciones ("Create", "Edit", etc.): 14px, negrita, centrado.
+Encabezados de la Tabla: 16px, negrita, en mayúsculas.
+Contenido de la Tabla: 14px, regular.
+
+3. Componentes y Estilos de Elementos
+Barra de Navegación Superior:
+
+Color de Fondo: Azul claro (#00AEEF).
+Enlaces de Navegación: Texto en blanco, tamaño de fuente 16px, negrita. Incluye "Inicio", "Estadísticas Generales", "Notificaciones y Alertas", y "Gestión de Usuarios".
+Botones de Acción ("Create", "Edit", etc.):
+
+Color de Fondo: Gris claro (#EAEAEA), con texto en azul claro (#00AEEF).
+Bordes: Redondeados, con un radio de 5px.
+Hover: Color de fondo azul claro (#00AEEF) con texto en blanco.
+Tamaño de Fuente: 14px, centrado.
+Tabla de Datos de Usuarios:
+
+Encabezados de la Tabla: Fondo gris claro, texto en negrita y negro.
+Celdas de Contenido: Fondo blanco, texto en gris oscuro.
+Bordes: Delgados y en gris para separar filas y columnas.
+Check Box: Para seleccionar usuarios, ubicado al inicio de cada fila.
+Buscar en la Tabla: Campo de búsqueda alineado a la derecha con borde gris claro.
+Footer:
+
+Color de Fondo: Azul claro (#00AEEF).
+Iconos de Redes Sociales: Tamaño de 24px, alineados a la izquierda.
+Texto Institucional: Centrado, tamaño de fuente 12px, color blanco.
+
+4. Espaciado y Alineación
+Margen Superior e Inferior de Secciones: 20px para una separación clara.
+Padding en Botones y Tabla: 10px.
+Alineación: Contenido centrado en los botones de acción y en el campo de búsqueda.
+
+5. Interactividad
+Efecto Hover en Navegación: Subrayado en los enlaces de navegación.
+Hover en Botones de Acción: Cambian de color a azul claro con texto en blanco.
+Campo de Búsqueda: Cambia de borde a un gris más oscuro cuando se enfoca.
+
+6. Íconos y Elementos Gráficos
+Usa iconos para "Crear", "Editar", "Copiar", y "Eliminar" con estilo minimalista en botones, siguiendo los colores descritos para una apariencia consistente.
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Página de Administrador - Inicio.png>)
+
+
+### 2.1 Pagina de Administrador - Estadísticas Generales 
+
+1. Colores Primarios y Secundarios:
+Color principal: #0288d1 (Azul claro utilizado en la barra superior)
+Color de acento: #ffffff (Blanco para fondo y elementos de texto principales)
+Color de fondo secundario: #f5f5f5 (Gris claro para secciones secundarias)
+Color de botón: #0288d1 (Azul de botón de acceso)
+Color de enlace: #0288d1 (para enlaces como “¿Olvidó su contraseña?”)
+
+2. Tipografía:
+Tipografía principal: Sans-serif (p. ej., Arial, Helvetica)
+Tamaño del título principal (h1): 32px, negrita
+Tamaño de subtítulos (h2, h3): 20-24px, seminegrita
+Tamaño del texto del cuerpo: 16px
+
+Tamaño de texto de botones y enlaces: 14px, negrita para botones
+
+3. Botones y Formularios:
+Botón de acceso:
+Color de fondo: #0288d1
+Color de texto: #ffffff
+Bordes: Redondeados con un radio de 4px
+Hover: Cambio a un tono más oscuro de azul
+Campos de formulario:
+Color de fondo: #ffffff
+Bordes: Gris claro (#cccccc)
+Placeholder: Texto gris claro para guiar al usuario
+
+4. Íconos y Navegación:
+Íconos de navegación: Ubicados en la barra superior derecha
+Estilo: Líneas simples, estilo minimalista, color #ffffff
+Tamaño: 24px
+Botones de red social: Estilo en color original de cada red social (Instagram, LinkedIn)
+
+5. Imágenes y Multimedia:
+Tamaño de imágenes: Rectangular, con borde redondeado en las esquinas (radio de 8px)
+Ubicación: A la derecha del formulario de acceso, alineada con el texto descriptivo.
+
+6. Footer:
+Color de fondo: #0288d1
+Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Administrador - Estadísticas Generales.png>)
+
+### 2.2 Pagina de Administrador - Notificaciones y Alertas 
+
+1. Colores Primarios y Secundarios:
+Color principal: #0288d1 (Azul claro utilizado en la barra superior)
+Color de acento: #ffffff (Blanco para fondo y elementos de texto principales)
+Color de fondo secundario: #f5f5f5 (Gris claro para secciones secundarias)
+Color de botón: #0288d1 (Azul de botón de acceso)
+Color de enlace: #0288d1 (para enlaces como “¿Olvidó su contraseña?”)
+
+2. Tipografía:
+Tipografía principal: Sans-serif (p. ej., Arial, Helvetica)
+Tamaño del título principal (h1): 32px, negrita
+Tamaño de subtítulos (h2, h3): 20-24px, seminegrita
+Tamaño del texto del cuerpo: 16px
+Tamaño de texto de botones y enlaces: 14px, negrita para botones
+
+3. Botones y Formularios:
+Botón de acceso:
+Color de fondo: #0288d1
+Color de texto: #ffffff
+Bordes: Redondeados con un radio de 4px
+Hover: Cambio a un tono más oscuro de azul
+Campos de formulario:
+Color de fondo: #ffffff
+Bordes: Gris claro (#cccccc)
+Placeholder: Texto gris claro para guiar al usuario
+
+4. Íconos y Navegación:
+Íconos de navegación: Ubicados en la barra superior derecha
+Estilo: Líneas simples, estilo minimalista, color #ffffff
+Tamaño: 24px
+Botones de red social: Estilo en color original de cada red social (Instagram, LinkedIn)
+
+5. Imágenes y Multimedia:
+Tamaño de imágenes: Rectangular, con borde redondeado en las esquinas (radio de 8px)
+Ubicación: A la derecha del formulario de acceso, alineada con el texto descriptivo.
+
+6. Footer:
+Color de fondo: #0288d1
+Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
+
+![Marcador de Asistencia](<WIREFRAM BAJA FIDELIDAD/Entorno web/inicar-sesion.png>)
+
+### 2.3 Pagina de Administrador - Notificaciones y Alertas 
+
+1. Colores Primarios y Secundarios:
+Color principal: #0288d1 (Azul claro utilizado en la barra superior)
+Color de acento: #ffffff (Blanco para fondo y elementos de texto principales)
+Color de fondo secundario: #f5f5f5 (Gris claro para secciones secundarias)
+Color de botón: #0288d1 (Azul de botón de acceso)
+Color de enlace: #0288d1 (para enlaces como “¿Olvidó su contraseña?”)
+
+2. Tipografía:
+Tipografía principal: Sans-serif (p. ej., Arial, Helvetica)
+Tamaño del título principal (h1): 32px, negrita
+Tamaño de subtítulos (h2, h3): 20-24px, seminegrita
+Tamaño del texto del cuerpo: 16px
+Tamaño de texto de botones y enlaces: 14px, negrita para botones
+
+3. Botones y Formularios:
+Botón de acceso:
+Color de fondo: #0288d1
+Color de texto: #ffffff
+Bordes: Redondeados con un radio de 4px
+Hover: Cambio a un tono más oscuro de azul
+Campos de formulario:
+Color de fondo: #ffffff
+Bordes: Gris claro (#cccccc)
+Placeholder: Texto gris claro para guiar al usuario
+
+4. Íconos y Navegación:
+Íconos de navegación: Ubicados en la barra superior derecha
+Estilo: Líneas simples, estilo minimalista, color #ffffff
+Tamaño: 24px
+Botones de red social: Estilo en color original de cada red social (Instagram, LinkedIn)
+
+5. Imágenes y Multimedia:
+Tamaño de imágenes: Rectangular, con borde redondeado en las esquinas (radio de 8px)
+Ubicación: A la derecha del formulario de acceso, alineada con el texto descriptivo.
+
+6. Footer:
+Color de fondo: #0288d1
+Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Administrador - Notificaciones y Alertas.png>)
+
+### 2.4 Pagina de Administrador - Gestión de Usuarios 
+
+1. Colores Primarios y Secundarios:
+Color principal: #0288d1 (Azul claro utilizado en la barra superior)
+Color de acento: #ffffff (Blanco para fondo y elementos de texto principales)
+Color de fondo secundario: #f5f5f5 (Gris claro para secciones secundarias)
+Color de botón: #0288d1 (Azul de botón de acceso)
+Color de enlace: #0288d1 (para enlaces como “¿Olvidó su contraseña?”)
+
+2. Tipografía:
+Tipografía principal: Sans-serif (p. ej., Arial, Helvetica)
+Tamaño del título principal (h1): 32px, negrita
+Tamaño de subtítulos (h2, h3): 20-24px, seminegrita
+Tamaño del texto del cuerpo: 16px
+Tamaño de texto de botones y enlaces: 14px, negrita para botones
+
+3. Botones y Formularios:
+Botón de acceso:
+Color de fondo: #0288d1
+Color de texto: #ffffff
+Bordes: Redondeados con un radio de 4px
+Hover: Cambio a un tono más oscuro de azul
+Campos de formulario:
+Color de fondo: #ffffff
+Bordes: Gris claro (#cccccc)
+Placeholder: Texto gris claro para guiar al usuario
+
+4. Íconos y Navegación:
+Íconos de navegación: Ubicados en la barra superior derecha
+Estilo: Líneas simples, estilo minimalista, color #ffffff
+Tamaño: 24px
+Botones de red social: Estilo en color original de cada red social (Instagram, LinkedIn)
+
+5. Imágenes y Multimedia:
+Tamaño de imágenes: Rectangular, con borde redondeado en las esquinas (radio de 8px)
+Ubicación: A la derecha del formulario de acceso, alineada con el texto descriptivo.
+
+6. Footer:
+Color de fondo: #0288d1
+Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Administrador - Gestión de Usuarios.png>)
+
+### 3 Pagina de Professor - Inicio
+
+1. Colores Primarios y Secundarios:
+Color principal: #0288d1 (Azul claro utilizado en la barra superior)
+Color de acento: #ffffff (Blanco para fondo y elementos de texto principales)
+Color de fondo secundario: #f5f5f5 (Gris claro para secciones secundarias)
+Color de botón: #0288d1 (Azul de botón de acceso)
+Color de enlace: #0288d1 (para enlaces como “¿Olvidó su contraseña?”)
+
+2. Tipografía:
+Tipografía principal: Sans-serif (p. ej., Arial, Helvetica)
+Tamaño del título principal (h1): 32px, negrita
+Tamaño de subtítulos (h2, h3): 20-24px, seminegrita
+Tamaño del texto del cuerpo: 16px
+Tamaño de texto de botones y enlaces: 14px, negrita para botones
+
+3. Botones y Formularios:
+Botón de acceso:
+Color de fondo: #0288d1
+Color de texto: #ffffff
+Bordes: Redondeados con un radio de 4px
+Hover: Cambio a un tono más oscuro de azul
+Campos de formulario:
+Color de fondo: #ffffff
+Bordes: Gris claro (#cccccc)
+Placeholder: Texto gris claro para guiar al usuario
+
+4. Íconos y Navegación:
+Íconos de navegación: Ubicados en la barra superior derecha
+Estilo: Líneas simples, estilo minimalista, color #ffffff
+Tamaño: 24px
+Botones de red social: Estilo en color original de cada red social (Instagram, LinkedIn)
+
+5. Imágenes y Multimedia:
+Tamaño de imágenes: Rectangular, con borde redondeado en las esquinas (radio de 8px)
+Ubicación: A la derecha del formulario de acceso, alineada con el texto descriptivo.
+
+6. Footer:
+Color de fondo: #0288d1
+Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Professor - Inicio.png>)
+
+### 3.1 Pagina de Professor - Reportes de Asistencia
+
+1.Colores Primarios y Secundarios:
+Color principal: #0288d1 (Azul claro utilizado en la barra superior)
+Color de acento: #ffffff (Blanco para fondo y elementos de texto principales)
+Color de fondo secundario: #f5f5f5 (Gris claro para secciones secundarias)
+Color de botón: #0288d1 (Azul de botón de acceso)
+Color de enlace: #0288d1 (para enlaces como “¿Olvidó su contraseña?”)
+
+2. Tipografía:
+Tipografía principal: Sans-serif (p. ej., Arial, Helvetica)
+Tamaño del título principal (h1): 32px, negrita
+Tamaño de subtítulos (h2, h3): 20-24px, seminegrita
+Tamaño del texto del cuerpo: 16px
+Tamaño de texto de botones y enlaces: 14px, negrita para botones
+
+3. Botones y Formularios:
+Botón de acceso:
+Color de fondo: #0288d1
+Color de texto: #ffffff
+Bordes: Redondeados con un radio de 4px
+Hover: Cambio a un tono más oscuro de azul
+Campos de formulario:
+Color de fondo: #ffffff
+Bordes: Gris claro (#cccccc)
+Placeholder: Texto gris claro para guiar al usuario
+
+4. Íconos y Navegación:
+Íconos de navegación: Ubicados en la barra superior derecha
+Estilo: Líneas simples, estilo minimalista, color #ffffff
+Tamaño: 24px
+Botones de red social: Estilo en color original de cada red social (Instagram, LinkedIn)
+
+5. Imágenes y Multimedia:
+Tamaño de imágenes: Rectangular, con borde redondeado en las esquinas (radio de 8px)
+Ubicación: A la derecha del formulario de acceso, alineada con el texto descriptivo.
+
+6. Footer:
+Color de fondo: #0288d1
+Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Professor - Reportes de Asistencia.png>)
+
+
+### 3.2 Pagina de Professor - Área personal
+
+1. Colores Primarios y Secundarios:
+Color principal: #0288d1 (Azul claro utilizado en la barra superior)
+Color de acento: #ffffff (Blanco para fondo y elementos de texto principales)
+Color de fondo secundario: #f5f5f5 (Gris claro para secciones secundarias)
+Color de botón: #0288d1 (Azul de botón de acceso)
+Color de enlace: #0288d1 (para enlaces como “¿Olvidó su contraseña?”)
+
+2. Tipografía:
+Tipografía principal: Sans-serif (p. ej., Arial, Helvetica)
+Tamaño del título principal (h1): 32px, negrita
+Tamaño de subtítulos (h2, h3): 20-24px, seminegrita
+Tamaño del texto del cuerpo: 16px
+Tamaño de texto de botones y enlaces: 14px, negrita para botones
+
+3. Botones y Formularios:
+Botón de acceso:
+Color de fondo: #0288d1
+Color de texto: #ffffff
+Bordes: Redondeados con un radio de 4px
+Hover: Cambio a un tono más oscuro de azul
+Campos de formulario:
+Color de fondo: #ffffff
+Bordes: Gris claro (#cccccc)
+Placeholder: Texto gris claro para guiar al usuario
+
+4. Íconos y Navegación:
+Íconos de navegación: Ubicados en la barra superior derecha
+Estilo: Líneas simples, estilo minimalista, color #ffffff
+Tamaño: 24px
+Botones de red social: Estilo en color original de cada red social (Instagram, LinkedIn)
+
+5. Imágenes y Multimedia:
+Tamaño de imágenes: Rectangular, con borde redondeado en las esquinas (radio de 8px)
+Ubicación: A la derecha del formulario de acceso, alineada con el texto descriptivo.
+
+6. Footer:
+Color de fondo: #0288d1
+Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
+
+![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Professor - Área personal.png>)
