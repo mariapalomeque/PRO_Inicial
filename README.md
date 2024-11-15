@@ -863,7 +863,7 @@ Después de seleccionar el rol , el usuario será redirigido a la pantalla de in
 
 Esta pantalla muestra el horario de clases del alumno para el curso actual. En la parte superior, se presenta una opción de selección de curso, permitiendo al alumno escoger el año académico en caso de que tenga horarios distintos. A continuación, se despliega una tabla organizada que muestra las materias, horas y ubicaciones de cada clase. Un botón destacado en color azul permite descargar el horario en formato PDF para consultarlo offline, una funcionalidad útil para facilitar el acceso al horario en cualquier momento.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Alumno/Horario.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Alumno/Horario.png>)
 
 ### Pantalla registro de asistencia 
 
@@ -871,13 +871,13 @@ En esta vista, el alumno puede revisar su historial de asistencias. La pantalla 
 
 Tambien es posible consultar semanas anteriores, presionado el simbolo de luba en la parte superior se desplega un calendario, con el cual el alumno tiene la posibilidad de seleccionar una semana específica.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Alumno/Asistencias.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Alumno/Asistencias.png>)
 
 ### Pantalla perfil 
 
 La sección de perfil permite al alumno ver su información personal. En esta pantalla se muestran campos como nombre, email, teléfono, clase y curso, organizados en una lista clara. También hay un botón para editar la foto de perfil y un botón destacado en la parte inferior para cerrar sesión. Esta pantalla proporciona acceso rápido a la información de contacto y detalles académicos del alumno.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Alumno/Perfil.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Alumno/Perfil.png>)
 
 
 ## Portal profesorado
@@ -886,13 +886,13 @@ La sección de perfil permite al alumno ver su información personal. En esta pa
 
 Muestra el horario del curso. la estructura es similar a la pantalla de horario del alumno, pero con la posibilidad de editar el horario. Incluye un botón en azul para descargar el horario en formato PDF, facilitando el acceso offline y la revisión en cualquier momento.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Horario.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Profesorado/Horario.png>)
 
 ### Pantalla asistencias
 
 Esta pantalla es un panel de control para la gestión de asistencias. En el centro de la pantalla, el profesor tiene dos opciones: "Asistencia Hoy" y "Consultar Asistencias." 
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Asistencias.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Profesorado/Asistencias.png>)
 
 ### Pantalla asistencias hoy
 
@@ -900,19 +900,19 @@ Aquí el profesor ve una lista de las clases del día, con detalles sobre el ini
 
 Tras las seleccióm aparecera la listta de alumnos de dicho curso, podra marcar la asistencia de los estudiantes en una clase específica. Para cada alumno, el profesor puede seleccionar entre varias opciones: "Asistencia," "Retraso," "Falta" y "Falta Justificada." Cada opción está claramente identificada, permitiendo al profesor llevar un control preciso de la asistencia. Esta funcionalidad es ideal para un proceso rápido durante el pase de lista en clases o reuniones.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Asistencias hoy.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Profesorado/Asistencias hoy.png>)
 
 ### Pantalla consultar asistencias 
 
 En esta pantalla, el profesor puede seleccionar una fecha específica en un calendario visual, se aabrira un listado de aulas.ermite al profesor consultar la asistencia organizada por aula, facilitando la visualización de las clases que ha dado en cada espacio y acceder a los registros de asistencia de esa jornada. Esta funcionalidad es útil para revisar días específicos o analizar patrones de asistencia en fechas concretas.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Consultar asistencia.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Profesorado/Consultar asistencia.png>)
 
 ### Pantalla perfil
 
 La sección de perfil permite al profesor ver  su información personal. En esta pantalla se muestran campos como nombre, email, teléfono, materias que realiza, organizados en una lista clara. También hay un botón para editar la foto de perfil y un botón destacado en la parte inferior para cerrar sesión. Esta pantalla proporciona acceso rápido a la información de contacto y detalles académicos del alumno.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Profesorado/Perfil.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Profesorado/Perfil.png>)
 
 ## Portal administrador
 
@@ -922,7 +922,7 @@ Similar a la vista del profesor, pero con la opción adicional de crear, modific
 
 En la parte inferior, se encuentra la barra de navegación que incluye los íconos de diferentes secciones: "Horario", "Registro", "Asistencias" y "Perfil", permitiendo al usuario desplazarse fácilmente entre las distintas funciones de la aplicación.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Horario.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Administrador/Horario.png>)
 
 ### Creación , modificación o eliminación de un usuario
 
@@ -938,30 +938,30 @@ Debajo de esta información, se encuentra el botón azul "Guardar modificaciones
 
 Más abajo, se ofrece una opción de eliminación de cuenta, indicada con un texto en rojo que dice "ELIMINAR CUENTA". Este botón permite borrar completamente el perfil del profesor del sistema, una acción que suele ser irreversible y requiere precaución.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Registro.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Administrador/Registro.png>)
 
 ### Pantalla Consultar asistencias 
 
 Esta pantalla permite al administrador seleccionar entre dos opciones relacionadas con la gestión de asistencias de los alumnos.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Consultar asistencia.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Administrador/Consultar asistencia.png>)
 
 En la parte superior de la pantalla se presenta la pregunta "¿Qué deseas ver ahora?" como una invitación al usuario para elegir una acción. Debajo de esta pregunta, hay dos botones con íconos ilustrativos y textos descriptivos:
 
 Consultar asistencias: Esta opción dirige al usuario a una vista donde debera sleccionar la fecha y posteriormente la aula que desea cosnultar, y puede revisar los registros de asistencia de los alumnos, incluyendo detalles de horas.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Asistencias.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Administrador/Asistencias.png>)
 
 Registro de accesos de alumnos: Esta opción permite al administrador acceder a un historial detallado de los accesos de los alumnos al edificio o a zonas específicas, ayudando a llevar un control de su movimiento dentro de las instalaciones. Primero, debera sleccionar la clase, luego aparecera el  listado de alumnos y debera seleccionar uno. 
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Accesos alumnos.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Administrador/Accesos alumnos.png>)
 
 
 ### Pantalla perfil 
 
 Esta pantalla muestra el perfil del administrador, con su foto, nombre, correo y teléfono. Incluye opciones para editar la foto de perfil y cerrar sesión.
 
-![alt text](<Wireframe Alta fidelidad/Aplicación mobil/Administrador/Paste.png>)
+![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Administrador/Paste.png>)
 
 
 
