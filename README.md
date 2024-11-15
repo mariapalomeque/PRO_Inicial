@@ -131,18 +131,21 @@ También muestra el primer y último acceso al sistema, junto con un resumen de 
 ![Vista de Usuario](<WIREFRAM BAJA FIDELIDAD/Entorno web/vista-usuario.png>)
 
 ---
+<br><br>
 
-# Diseño de la base de datos de control de presencia
+![alt text](<Recursos visuales/Sprint 2.png>)
+
+## Diseño de la base de datos de control de presencia
 
 Este proyecto busca crear un sistema que registre quién entra y sale del colegio de forma sencilla y eficiente. Para lograrlo, diseñamos una base de datos que organiza información como los datos de alumnos, profesores y administradores, sus horarios y los registros de entrada y salida.
 
 Además, hemos incluido detalles como los roles de cada usuario y un historial de cambios para que todo quede bien documentado. Esta base de datos será el corazón del sistema, conectando los datos con una aplicación móvil donde cada usuario podrá ver su información de forma clara y ordenada. 
 
-![Diseño completo de la base de datos](<Diseño de la base de datos de control de presencia/diseño UML.PNG>)
+![Diseño completo de la base de datos](<Diagrama BBDD/diseño UML.PNG>)
 
-## Las tablas de la base de datos
+### Las tablas de la base de datos
 
-### Usuarios y Roles
+#### Usuarios y Roles
 
 La tabla Usuarios almacena la información básica de todas las personas que interactúan con el sistema, ya sean alumnos, profesores o administradores. Cada registro en esta tabla representa a un usuario único. Los campos principales son:
 
@@ -164,9 +167,9 @@ La relación entre las tablas Usuarios y Roles es de tipo muchos a uno (N:1), ya
 Cada registro en la tabla Usuarios tiene un campo id_rol que apunta a un registro en la tabla Roles.
 Esta estructura facilita diferenciar las funcionalidades y permisos de cada tipo de usuario en el sistema.
 
-![alt text](<Diseño de la base de datos de control de presencia/BBDD_UsuariosARoles.PNG>)
+![alt text](<Diagrama BBDD/BBDD_UsuariosARoles.PNG>)
 
-### Registro
+#### Registro
 
 La tabla Registro se utiliza para guardar los datos de las entradas y salidas de los usuarios del sistema. Cada vez que un usuario pasa su tarjeta, se genera un nuevo registro que se almacena en esta tabla. Los campos principales son:
 
@@ -181,9 +184,9 @@ Cada usuario puede generar múltiples registros (entradas y salidas a lo largo d
 Pero cada registro está asociado a un único usuario.
 La tabla Registro tiene un campo id_usuario que actúa como llave foránea, vinculándolo con la tabla Usuarios.
 
-![alt text](<Diseño de la base de datos de control de presencia/BBDD_registro.PNG>)
+![alt text](<Diagrama BBDD/BBDD_registro.PNG>)
 
-### Clases y Horarios
+#### Clases y Horarios
 
 La tabla Clases agrupa a los usuarios según el grupo o curso al que pertenecen. Esto es útil principalmente para los estudiantes, ya que los horarios de clase suelen estar asignados a grupos enteros. Los campos principales de esta tabla son:
 
@@ -213,9 +216,9 @@ Relación entre Horarios y Usuarios (Indirecta a través de Clases):
 Aunque no hay una relación directa entre los usuarios y los horarios, un usuario puede consultar su horario a través de su clase.
 Usuario con id_clase = DAM1A busca el horario en la tabla Horarios vinculado al registro con id_clase = DAM1A.
 
-![alt text](<Diseño de la base de datos de control de presencia/BBDD_clasesYHorarios.PNG>)
+![alt text](<Diagrama BBDD/BBDD_clasesYHorarios.PNG>)
 
-### HistorialCambios
+#### HistorialCambios
 
 La tabla Historial de Cambios registra modificaciones realizadas sobre los datos de los usuarios. Esto permite un seguimiento detallado de quién, cuándo y qué se ha cambiado, ofreciendo transparencia y trnaquilidad en la gestión de la información.  Los campos principales son:
 
@@ -233,7 +236,7 @@ Cada usuario puede tener múltiples registros en el historial de cambios, ya que
 La relación está establecida mediante el campo id_usuario en la tabla Historial de Cambios, que actúa como una llave foránea de la tabla Usuarios.
 Si el correo de un usuario cambia de "pepito@iticbcn.cat" a "pepitopalotes@iticbcn.cat", se creará un registro en Historial de Cambios vinculado a ese usuario.
 
-![alt text](<Diseño de la base de datos de control de presencia/BBDD_historialCambios.PNG>)
+![alt text](<Diagrama BBDD/BBDD_historialCambios.PNG>)
 
 Este diseño de la base de datos es el punto de partida para nuestra aplicación. Está bien estructurado para cubrir lo que necesitamos al principio, pero es posible que a medida que avancemos en el proyecto, sea necesario hacer algunos ajustes.
 
