@@ -963,7 +963,6 @@ Esta pantalla muestra el perfil del administrador, con su foto, nombre, correo y
 
 ![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Administrador/Paste.png>)
 
-
 ---
 <br><br>
 
@@ -980,7 +979,7 @@ Finalmente, el estudiante de **DAW** se concentrará en la creación de una **AP
 
 Este sprint consolidará la base técnica del proyecto y permitirá avanzar hacia un sistema funcional y bien integrado, gracias a la colaboración entre los cinco miembros del equipo y a la división eficiente de las responsabilidades según sus competencias.
 
-Pueden acceder al **Kanban** de este tercer sprint a través del siguiente enlace: [Trello Kanban Sprint 3](https://trello.com/invite/b/673b459a95f41a68a4d3e2cd/ATTI30e02176b3708ad6e822da540ceaf7e2B91587A0/a02-4-sprint-3), donde podrán seguir el progreso de las tareas asignadas. También pueden revisar el **Figma del wireframe de baja fidelidad** en este enlace: [Wireframe Proyecto - Figma](https://www.figma.com/design/LIGys4AhyOJA7BgPnojR0F/WIREFRAME-PROYECTO?node-id=2003-368&t=Af2eXti2xyl8ThtI-1).
+Pueden acceder al **Kanban** de este tercer sprint a través del siguiente enlace: [Trello Kanban Sprint 3](https://trello.com/invite/b/673b459a95f41a68a4d3e2cd/ATTI30e02176b3708ad6e822da540ceaf7e2B91587A0/a02-4-sprint-3), donde podrán seguir el progreso de las tareas asignadas.
 
 ---
 
