@@ -143,7 +143,7 @@ Mientras tanto, un estudiante de **DAM** trabajarán en el **diseño  de la base
 
 En paralelo, los estudiantes de **DAM y DAW** trabajarán en la creación de los **wireframes de alta fidelidad**, cada uno enfocado en su especialidad. La estudiante de **DAM** se encargarán del diseño del wireframe de alta fidelidad para la **aplicación móvil**, mientras que el estudiante de **DAW** desarrollarán el wireframe de alta fidelidad para la **web**. Estos diseños tendrán un alto nivel de detalle y reflejarán las funcionalidades clave y la estética general de las plataformas. Asimismo, se colaborará en la elaboración de una guía de estilos que definirá aspectos como colores, tipografías y otros elementos visuales para asegurar la coherencia y uniformidad en todos los componentes del proyecto.
 
-Además, pueden acceder al **Kanban** de este primer sprint a través del siguiente enlace: [Trello Kanban Sprint 2](https://trello.com/invite/b/67321584c468dfa0eb23f2eb/ATTI4ba9fd024d197d8f4dcb76bcb95f7ad8376B9ACF/a02-4-sprint-2), donde podrán seguir el progreso de las tareas asignadas. También pueden revisar el **Figma del wireframe de baja fidelidad** en este enlace: [Wireframe Proyecto - Figma](https://www.figma.com/design/LIGys4AhyOJA7BgPnojR0F/WIREFRAME-PROYECTO?node-id=2003-368&t=Af2eXti2xyl8ThtI-1). En la carpeta de **Wireframe de baja fidelidad**, podrán encontrar las imágenes de los dos wireframes desarrollados hasta el momento.
+Además, pueden acceder al **Kanban** de este segundo sprint a través del siguiente enlace: [Trello Kanban Sprint 2](https://trello.com/invite/b/67321584c468dfa0eb23f2eb/ATTI4ba9fd024d197d8f4dcb76bcb95f7ad8376B9ACF/a02-4-sprint-2), donde podrán seguir el progreso de las tareas asignadas. También pueden revisar el **Figma del wireframe de baja fidelidad** en este enlace: [Wireframe Proyecto - Figma](https://www.figma.com/design/LIGys4AhyOJA7BgPnojR0F/WIREFRAME-PROYECTO?node-id=2003-368&t=Af2eXti2xyl8ThtI-1). En la carpeta de **Wireframe de baja fidelidad**, podrán encontrar las imágenes de los dos wireframes desarrollados hasta el momento.
 
 ---
 
@@ -964,6 +964,25 @@ Esta pantalla muestra el perfil del administrador, con su foto, nombre, correo y
 ![alt text](<WIREFRAME ALTA FIDELIDAD/Aplicación mobil/Administrador/Paste.png>)
 
 
+---
+<br><br>
+
+![alt text](<Recursos visuales/Sprint 3.png>)
+
+
+El **Sprint 3** se enfocará en consolidar la infraestructura técnica y avanzar en componentes fundamentales del sistema.
+
+Los estudiantes de **ASIX** liderarán el diseño y la configuración de la infraestructura tecnológica, abordando dos tareas cruciales. En primer lugar, trabajarán en la creación de la **infraestructura de la base de datos**, estableciendo roles, permisos y realizando las comprobaciones necesarias para garantizar la seguridad y funcionalidad del sistema de almacenamiento de datos. Además, implementarán la **infraestructura de servidores y red** del proyecto, que incluye la configuración de servidores web, la red interna y la gestión de usuarios SSH, asegurando la conectividad y estabilidad necesarias para las operaciones del sistema.
+
+Por su parte, los estudiantes de **DAM** se encargarán de desarrollar un **programa cliente** que permitirá recibir los datos enviados desde AWS y almacenarlos en la base de datos, utilizando java. Este componente será crucial para asegurar la integración y el flujo de datos entre los dispositivos IoT y la base de datos central.
+
+Finalmente, el estudiante de **DAW** se concentrará en la creación de una **API REST** que gestionará la base de datos relacional. Esta API será diseñada para permitir, como mínimo, consultas relacionadas con los registros de entrada y salida, así como información de las personas. Su desarrollo será clave para proporcionar acceso estructurado y seguro a los datos almacenados, facilitando la interacción con otras aplicaciones del sistema.
+
+Este sprint consolidará la base técnica del proyecto y permitirá avanzar hacia un sistema funcional y bien integrado, gracias a la colaboración entre los cinco miembros del equipo y a la división eficiente de las responsabilidades según sus competencias.
+
+Pueden acceder al **Kanban** de este tercer sprint a través del siguiente enlace: [Trello Kanban Sprint 3](https://trello.com/invite/b/673b459a95f41a68a4d3e2cd/ATTI30e02176b3708ad6e822da540ceaf7e2B91587A0/a02-4-sprint-3), donde podrán seguir el progreso de las tareas asignadas. También pueden revisar el **Figma del wireframe de baja fidelidad** en este enlace: [Wireframe Proyecto - Figma](https://www.figma.com/design/LIGys4AhyOJA7BgPnojR0F/WIREFRAME-PROYECTO?node-id=2003-368&t=Af2eXti2xyl8ThtI-1).
+
+---
 
 
 
