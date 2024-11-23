@@ -3,7 +3,7 @@
 
 ## Introducción 
 
-Un grupo de cinco estudiantes del Instituto TIC de Barcelona se ha unido para formar un equipo de desarrolladores con el objetivo de crear un sistema de control de fichajes para una organización. Este equipo está compuesto por **Luis Montiel** (DAW), **Aitor Santamaría** (ASIX), **Aaron Rodríguez** (ASIX), **Pau Chacón** (DAM) y **María Palomeque** (DAM).
+Un grupo de cinco estudiantes del Instituto TIC de Barcelona se ha unido para formar un equipo de desarrolladores con el objetivo de crear un sistema de control de fichajes para una organización. Este equipo está compuesto por Luis Montiel (DAW), Aitor Santamaría (ASIX), Aaron Rodríguez (ASIX), Pau Chacón (DAM) y María Palomeque (DAM).
 
 ---
 
@@ -18,7 +18,7 @@ Desde el servidor, se recogerán las lecturas enviadas por el dispositivo y se g
 
 ### Planificación del Proyecto
 
-Para este proyecto, se implementará la metodología Agile, estructurando el desarrollo en **siete sprints** que permitirán avanzar de manera organizada y adaptativa. En cada sprint se abordarán tareas específicas para completar los diferentes aspectos del proyecto. Además, se utilizará un tablero **Kanban** en la herramienta **Trello** para distribuir las tareas entre los miembros del equipo y hacer un seguimiento continuo del estado de cada una. Con el tablero Kanban, se podrá visualizar de manera clara el progreso de cada tarea en sus diferentes etapas, desde "Pendiente" hasta "En proceso" y "Finalizada".<br><br>
+Para este proyecto, se implementará la metodología Agile, estructurando el desarrollo en siete sprints que permitirán avanzar de manera organizada y adaptativa. En cada sprint se abordarán tareas específicas para completar los diferentes aspectos del proyecto. Además, se utilizará un tablero Kanban en la herramienta Trello para distribuir las tareas entre los miembros del equipo y hacer un seguimiento continuo del estado de cada una. Con el tablero Kanban, se podrá visualizar de manera clara el progreso de cada tarea en sus diferentes etapas, desde "Pendiente" hasta "En proceso" y "Finalizada".<br><br>
 
 
 ![alt text](<Recursos visuales/Sprints.png>)
@@ -49,11 +49,11 @@ Finalmente, en el séptimo sprint, se realizará la presentación del proyecto. 
 
 ![## Sprint 1](<Recursos visuales/Sprint 1.png>)
 
-En el primer sprint, los estudiantes de **DAM** y **DAW** se enfocarán en definir de manera profunda la logística y estructura del programa. A pesar de que se trabajará en formatos diferentes (web y aplicación móvil), ambas versiones deberán compartir una estética coherente y estable que mantenga la consistencia visual y funcional entre ambas plataformas.
+En el primer sprint, los estudiantes de DAM y DAW se enfocarán en definir de manera profunda la logística y estructura del programa. A pesar de que se trabajará en formatos diferentes (web y aplicación móvil), ambas versiones deberán compartir una estética coherente y estable que mantenga la consistencia visual y funcional entre ambas plataformas.
 
-Una vez que se tenga una idea clara de cómo será nuestra aplicación, se iniciará el diseño del **wireframe de baja fidelidad**. Este primer diseño mostrará únicamente una estructura base, con las principales funciones que deberá tener la aplicación. Conforme avance el proyecto, se desarrollará un segundo diseño de la aplicación, más elaborado y concreto, que permita una visión detallada del producto final, alineada con los objetivos y funcionalidades definidas desde el inicio.
+Una vez que se tenga una idea clara de cómo será nuestra aplicación, se iniciará el diseño del wireframe de baja fidelidad. Este primer diseño mostrará únicamente una estructura base, con las principales funciones que deberá tener la aplicación. Conforme avance el proyecto, se desarrollará un segundo diseño de la aplicación, más elaborado y concreto, que permita una visión detallada del producto final, alineada con los objetivos y funcionalidades definidas desde el inicio.
 
-Además, pueden acceder al **Kanban** de este primer sprint a través del siguiente enlace: [Trello Kanban Sprint 1](https://trello.com/invite/b/672a306125d7db1ec30293e2/ATTIf212ea20f08c3613c9efc530832732a2DBABB5D3/a02-4-sprint-1), donde podrán seguir el progreso de las tareas asignadas. También pueden revisar el **Figma del wireframe de baja fidelidad** en este enlace: [Wireframe Proyecto - Figma](https://www.figma.com/design/LIGys4AhyOJA7BgPnojR0F/WIREFRAME-PROYECTO?node-id=2003-368&t=Af2eXti2xyl8ThtI-1). En la carpeta de **Wireframe de baja fidelidad**, podrán encontrar las imágenes de los dos wireframes desarrollados hasta el momento.
+Además, pueden acceder al Kanban de este primer sprint a través del siguiente enlace: [Trello Kanban Sprint 1](https://trello.com/invite/b/672a306125d7db1ec30293e2/ATTIf212ea20f08c3613c9efc530832732a2DBABB5D3/a02-4-sprint-1), donde podrán seguir el progreso de las tareas asignadas. También pueden revisar el Figma del wireframe de baja fidelidad en este enlace: [Wireframe Proyecto - Figma](https://www.figma.com/design/LIGys4AhyOJA7BgPnojR0F/WIREFRAME-PROYECTO?node-id=2003-368&t=Af2eXti2xyl8ThtI-1). En la carpeta de Wireframe de baja fidelidad, podrán encontrar las imágenes de los dos wireframes desarrollados hasta el momento.
 
 
 ---
@@ -62,9 +62,9 @@ Además, pueden acceder al **Kanban** de este primer sprint a través del siguie
 
 #### Inicio de sesión 
 
-La **primera pantalla** que aparece es la de **inicio de sesión**. En esta, se nos pedirá que seleccionemos una de las tres **modalidades de usuario**: **alumno**, **profesor** o **administrador**. Una vez realizada la selección, seremos redirigidos a la pantalla de **inicio de sesión** correspondiente, donde deberemos ingresar nuestras **credenciales**: el **correo institucional** y la **contraseña**.
+La primera pantalla que aparece es la de inicio de sesión. En esta, se nos pedirá que seleccionemos una de las tres modalidades de usuario: alumno, profesor o administrador. Una vez realizada la selección, seremos redirigidos a la pantalla de inicio de sesión correspondiente, donde deberemos ingresar nuestras credenciales: el correo institucional y la contraseña.
 
-Las cuentas serán **creadas y gestionadas exclusivamente por el administrador** del sistema, ya que solo un grupo determinado de personas podrá tener acceso autorizado a la aplicación. Además, será necesario que cada usuario tenga su cuenta vinculada con un **chip de identificación**, asegurando así que el acceso y control de presencia sea seguro y adecuado para cada tipo de usuario.
+Las cuentas serán creadas y gestionadas exclusivamente por el administrador del sistema, ya que solo un grupo determinado de personas podrá tener acceso autorizado a la aplicación. Además, será necesario que cada usuario tenga su cuenta vinculada con un chip de identificación, asegurando así que el acceso y control de presencia sea seguro y adecuado para cada tipo de usuario.
 
 ![alt text](<WIREFRAM BAJA FIDELIDAD/Aplicación mobil/Inicio sesión.png>)
 
@@ -72,7 +72,7 @@ Las cuentas serán **creadas y gestionadas exclusivamente por el administrador**
 #### Plataforma alumno
 
 
-El portal del estudiante ofrece tres funcionalidades clave para facilitar el acceso a su información académica y personal. En primer lugar, permite consultar su **horario** de clases, organizado de manera clara y estructurada, lo que le facilita planificar su jornada académica. Además, cuenta con una sección de registro de **asistencia**, en la que el estudiante puede ver detalladamente sus entradas y salidas a lo largo de la semana, obteniendo una visión completa de sus asistencias registradas en cada sesión. Por último, en la sección de *Mi perfil*, el estudiante tiene acceso a los datos de su cuenta, además de la opción de **cerrar sesión** cuando lo desee.
+El portal del estudiante ofrece tres funcionalidades clave para facilitar el acceso a su información académica y personal. En primer lugar, permite consultar su horario de clases, organizado de manera clara y estructurada, lo que le facilita planificar su jornada académica. Además, cuenta con una sección de registro de asistencia, en la que el estudiante puede ver detalladamente sus entradas y salidas a lo largo de la semana, obteniendo una visión completa de sus asistencias registradas en cada sesión. Por último, en la sección de *Mi perfil*, el estudiante tiene acceso a los datos de su cuenta, además de la opción de cerrar sesión cuando lo desee.
 
 ![alt text](<WIREFRAM BAJA FIDELIDAD/Aplicación mobil/Funcionaliades alumno.png>)
 
@@ -80,13 +80,13 @@ El portal del estudiante ofrece tres funcionalidades clave para facilitar el acc
 
 #### Plataforma profesor
 
-La **plataforma del profesorado** es muy similar a la del estudiante en cuanto a las funcionalidades de **horario** y **perfil**, pero con algunas diferencias clave. Al igual que el estudiante, el profesor podrá consultar su **horario semanal** y acceder a los datos de su **perfil**. La principal diferencia radica en la sección de **asistencias**, ya que el profesor tendrá la capacidad de **pasar lista** en tiempo real para registrar las asistencias del día. Además, podrá **consultar el historial de asistencia** y, en caso de cometer algún error, tendrá la opción de **modificar** las asistencias de **días anteriores**, brindándole flexibilidad y control sobre el registro.
+La plataforma del profesorado es muy similar a la del estudiante en cuanto a las funcionalidades de horario y perfil, pero con algunas diferencias clave. Al igual que el estudiante, el profesor podrá consultar su horario semanal y acceder a los datos de su perfil. La principal diferencia radica en la sección de asistencias, ya que el profesor tendrá la capacidad de pasar lista en tiempo real para registrar las asistencias del día. Además, podrá consultar el historial de asistencia y, en caso de cometer algún error, tendrá la opción de modificar las asistencias de días anteriores, brindándole flexibilidad y control sobre el registro.
 
 ![alt text](<WIREFRAM BAJA FIDELIDAD/Aplicación mobil/Funcionalidades profesor.png>)
 
 #### Plataforma administrador 
 
-El **portal del empleado** contará con cuatro funcionalidades principales que le permitirán gestionar diversos aspectos relacionados con los usuarios y el control de asistencia. En primer lugar, tendrá la capacidad de **crear**, **modificar** y **eliminar** usuarios de tipo **profesor** y **alumno**, lo que le permitirá gestionar la base de datos de usuarios de manera eficiente. Además, podrá **ver el listado de asistencia de hoy**, **consultar el historial de asistencia** y verificar todos los **accesos de los estudiantes** al sistema. También podrá acceder a los **horarios de los alumnos y profesores**, con la capacidad de **modificarlos** si es necesario. Por último, contará con una sección de **perfil**, similar a la de los demás usuarios, donde podrá consultar y actualizar sus propios datos.
+El portal del empleado contará con cuatro funcionalidades principales que le permitirán gestionar diversos aspectos relacionados con los usuarios y el control de asistencia. En primer lugar, tendrá la capacidad de crear, modificar y eliminar usuarios de tipo profesor y alumno, lo que le permitirá gestionar la base de datos de usuarios de manera eficiente. Además, podrá ver el listado de asistencia de hoy, consultar el historial de asistencia y verificar todos los accesos de los estudiantes al sistema. También podrá acceder a los horarios de los alumnos y profesores, con la capacidad de modificarlos si es necesario. Por último, contará con una sección de perfil, similar a la de los demás usuarios, donde podrá consultar y actualizar sus propios datos.
 
 
 
@@ -819,3 +819,119 @@ Color de fondo: #0288d1
 Texto: Blanco (#ffffff) con iconos en colores originales de los logotipos (Unión Europea, Generalitat de Catalunya)
 
 ![Marcador de Asistencia](<WIREFRAME ALTA FIDELIDAD/Entorno web/Pagina de Professor - Área personal.png>)
+
+---
+<br><br>
+
+![alt text](<Recursos visuales/Sprint 3.png>)
+
+
+El Sprint 3 se enfocará en consolidar la infraestructura técnica y avanzar en componentes fundamentales del sistema.
+
+Los estudiantes de ASIX liderarán el diseño y la configuración de la infraestructura tecnológica, abordando dos tareas cruciales. En primer lugar, trabajarán en la creación de la infraestructura de la base de datos, estableciendo roles, permisos y realizando las comprobaciones necesarias para garantizar la seguridad y funcionalidad del sistema de almacenamiento de datos. Además, implementarán la infraestructura de servidores y red del proyecto, que incluye la configuración de servidores web, la red interna y la gestión de usuarios SSH, asegurando la conectividad y estabilidad necesarias para las operaciones del sistema.
+
+Por su parte, los estudiantes de DAM se encargarán de desarrollar un programa cliente que permitirá recibir los datos enviados desde AWS y almacenarlos en la base de datos, utilizando java. Este componente será crucial para asegurar la integración y el flujo de datos entre los dispositivos IoT y la base de datos central.
+
+Finalmente, el estudiante de DAW se concentrará en la creación de una API REST que gestionará la base de datos relacional. Esta API será diseñada para permitir, como mínimo, consultas relacionadas con los registros de entrada y salida, así como información de las personas. Su desarrollo será clave para proporcionar acceso estructurado y seguro a los datos almacenados, facilitando la interacción con otras aplicaciones del sistema.
+
+Este sprint consolidará la base técnica del proyecto y permitirá avanzar hacia un sistema funcional y bien integrado, gracias a la colaboración entre los cinco miembros del equipo y a la división eficiente de las responsabilidades según sus competencias.
+
+Pueden acceder al Kanban de este tercer sprint a través del siguiente enlace: [Trello Kanban Sprint 3](https://trello.com/invite/b/673b459a95f41a68a4d3e2cd/ATTI30e02176b3708ad6e822da540ceaf7e2B91587A0/a02-4-sprint-3), donde podrán seguir el progreso de las tareas asignadas.
+
+---
+
+**app.py**
+
+Este archivo define la API REST utilizando FastAPI para gestionar las operaciones CRUD sobre los usuarios almacenados en la base de datos PostgreSQL. Conecta con la base de datos usando `psycopg2`, y define varios endpoints como:
+- GET `/api/usuaris`: Recupera todos los usuarios.
+- GET `/api/usuaris/{id}`: Obtiene un usuario específico por ID.
+- POST `/api/usuaris`: Crea un nuevo usuario.
+- PUT `/api/usuaris/{id}`: Actualiza los detalles de un usuario existente.
+- DELETE `/api/usuaris/{id}`: Elimina un usuario por ID.
+Este archivo permite interactuar con la base de datos PostgreSQL de manera sencilla y efectiva usando las capacidades de FastAPI para crear una API rápida y escalable.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/app.png>)
+
+**arduino-aws**
+
+Este es el código de un Arduino (en este caso, un ESP32) que se conecta a AWS IoT Core utilizando MQTT para enviar datos al servidor en la nube. Los datos son enviados de forma periódica (cada 5 segundos) con el siguiente flujo:
+- Conexión a WiFi local.
+- Establecimiento de una conexión segura con AWS IoT Core utilizando certificados para autenticar el dispositivo.
+- Publicación de datos (como valores de sensores) a un topic en AWS IoT.
+El código utiliza la librería `PubSubClient` para la comunicación MQTT y asegura la transmisión mediante `WiFiClientSecure`, utilizando el protocolo SSL/TLS.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/arduino-aws.png>)
+
+**datos-aws-postgres.java**
+
+Este archivo contiene el código en Java para manejar los datos recibidos desde AWS IoT. Utiliza el AWS IoT Device SDK para suscribirse a un topic en AWS IoT Core y recibir los mensajes enviados por el Arduino. Cuando el mensaje es recibido:
+- El payload es extraído y parseado.
+- Los datos (como un `sensor_id` y su `valor`) se insertan en una base de datos PostgreSQL.
+La clase también implementa el manejo de conexiones MQTT y la inserción de datos en la base de datos usando JDBC, específicamente mediante un PreparedStatement para evitar inyecciones SQL.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/datos-aws-postgres.png>)
+
+**dependencias-maven.txt**
+
+Este archivo contiene las dependencias necesarias para el proyecto en Java. Se incluyen:
+- AWS IoT Device SDK: Para interactuar con AWS IoT Core mediante MQTT.
+- PostgreSQL JDBC: Para conectar y realizar operaciones sobre una base de datos PostgreSQL.
+Estas dependencias se gestionan a través de Maven, el sistema de gestión de dependencias de Java, para facilitar la configuración del entorno y asegurar que las bibliotecas necesarias se descarguen automáticamente.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/Dependecias-maven.png>)
+
+**docker-compose.yml**
+
+Este archivo configura los contenedores necesarios para ejecutar el proyecto usando Docker Compose. Define dos servicios principales:
+- db: Utiliza la imagen oficial de PostgreSQL para levantar la base de datos con el nombre `proyecto`. Define las credenciales de acceso y asegura la persistencia de datos mediante volúmenes.
+- app: Construye el contenedor de la aplicación que ejecuta la API FastAPI. Establece la conexión a la base de datos PostgreSQL y expone el puerto 8000 para acceder a la API.
+Este archivo permite que todos los servicios necesarios (API y base de datos) se gestionen de manera eficiente mediante Docker, asegurando una configuración de entorno reproducible.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/docker-compose.png>)
+
+**Dockerfile**
+
+El archivo Dockerfile establece cómo se construye la imagen del contenedor para la aplicación. Los pasos principales incluyen:
+1. Usar la imagen base python:3.10-slim.
+2. Establecer el directorio de trabajo a `/app`.
+3. Copiar los archivos del proyecto dentro del contenedor.
+4. Instalar las dependencias necesarias a partir del archivo `requirements.txt`.
+5. Exponer el puerto 8000 para que la aplicación FastAPI sea accesible.
+6. Definir el comando para ejecutar Uvicorn y servir la aplicación FastAPI.
+Este archivo es esencial para automatizar la construcción y ejecución de la aplicación en un entorno aislado usando Docker.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/Dockerfile.png>)
+
+**init.sql**
+
+Este archivo contiene el script SQL necesario para inicializar la base de datos PostgreSQL con las tablas requeridas para el proyecto. Crea las siguientes tablas:
+- rol: Define los roles disponibles para los usuarios.
+- clase: Contiene las clases disponibles en el sistema.
+- usuaris: La tabla principal de usuarios, que incluye referencias a rol y clase.
+- historialcambios: Registra cambios en los usuarios.
+- registre: Registra las acciones realizadas por los usuarios.
+- tablahorarios: Almacena los horarios de las clases.
+Este script es necesario para configurar la base de datos con la estructura adecuada antes de ejecutar la aplicación.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/init.png>)
+
+**politica-aws**
+
+Este archivo JSON define la política de permisos para AWS IoT Core. La política permite que un dispositivo (en este caso, un Arduino o ESP32) pueda:
+- Conectarse a AWS IoT Core.
+- Publicar datos en un tema específico de MQTT.
+La política es esencial para garantizar que el dispositivo tenga los permisos necesarios para interactuar de manera segura con AWS IoT.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/politica-aws.png>)
+
+**requirements.txt**
+
+Este archivo contiene las dependencias necesarias para ejecutar la API FastAPI. Incluye:
+- fastapi: Framework para la construcción de la API REST.
+- uvicorn: Servidor ASGI para ejecutar la aplicación FastAPI.
+- psycopg2-binary: Adaptador PostgreSQL para Python, utilizado para conectar y realizar operaciones sobre la base de datos PostgreSQL.
+Este archivo es esencial para configurar el entorno de Python y asegurar que las librerías necesarias estén instaladas.
+
+![Marcador de Asistencia](<Sprint-3/Capturas/requirements.png>
+
+)
