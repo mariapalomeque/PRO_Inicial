@@ -36,20 +36,18 @@
     <Button
         android:id="@+id/but_Alum"
         android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:background="@color/white"
-        android:backgroundTint="@null"
-        android:textColor="@color/black"
-        android:textSize="26dp"
+        android:layout_height="60dp"
         android:layout_marginTop="50dp"
-        android:text="Alumno" />
+        android:backgroundTint="#FFFFFF"
+        android:text="Alumno"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
 
     <Button
         android:id="@+id/But_Maestro"
         android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:background="@color/white"
-        android:backgroundTint="@null"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:textSize="26dp"
         android:layout_marginTop="50dp"
@@ -58,8 +56,8 @@
     <Button
         android:id="@+id/ButAdmin"
         android:layout_width="250dp"
-        android:layout_height="50dp"
-        android:background="@color/white"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/white"
         android:textColor="@color/black"
         android:textSize="26dp"
         android:layout_marginTop="50dp"
