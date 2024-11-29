@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <!-- Contenedor para Título e Icono de Búsqueda -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="16dp">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Asistencias"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <!-- Icono de búsqueda -->
+        <ImageButton
+            android:id="@+id/search_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="Buscar"
+            android:src="@drawable/ic_busqueda"
+            />
+    </LinearLayout>
+
+    <!-- Rango de fechas -->
+    <TextView
+        android:id="@+id/date_range"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semana 4 - 8 noviembre 2024"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp" />
+
+    <!-- Lista de días y horarios -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Bloque para Lunes -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lunes"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Entradas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Entradas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="08:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="12:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="14:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Salidas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salidas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="16:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="19:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="21:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Bloque para Lunes -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Martes"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Entradas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Entradas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="08:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="12:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="14:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Salidas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salidas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="16:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="19:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="21:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- Bloque para Lunes -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Miercoles"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Entradas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Entradas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="08:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="12:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="14:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Salidas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salidas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="16:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="19:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="21:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Bloque para Lunes -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jueves"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Entradas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Entradas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="08:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="12:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="14:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Salidas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salidas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="16:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="19:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="21:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Bloque para Viernes -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Viernes"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Entradas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Entradas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="08:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="12:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="14:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+
+                <!-- Salidas -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Salidas:"
+                        android:textSize="14sp"
+                        android:textColor="#666666"
+                        android:layout_marginEnd="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="16:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="19:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+
+                    <EditText
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="21:00"
+                        android:background="@drawable/rounded_edit_text"
+                        android:padding="8dp"
+                        android:inputType="time"
+                        android:layout_marginStart="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <!-- Barra de navegación inferior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:layout_gravity="bottom"
+        android:padding="8dp"
+        android:elevation="8dp">
+
+        <!-- Botón Horario -->
+        <Button
+            android:id="@+id/btn_schedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_horario"
+            android:drawablePadding="8dp"
+            android:background="@null"
+            android:text="Horario"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/white"
+            android:gravity="center" />
+
+        <!-- Botón Asistencias -->
+        <Button
+            android:id="@+id/btn_attendance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_asistencia_azul"
+            android:drawablePadding="8dp"
+            android:background="@null"
+            android:text="Asistencias"
+            android:textSize="12sp"
+            android:textColor="#2596BE"
+            android:backgroundTint="@color/white"
+            android:gravity="center" />
+
+        <!-- Botón Perfil -->
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_perfil"
+            android:drawablePadding="8dp"
+            android:background="@null"
+            android:text="Perfil"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:backgroundTint="@color/white"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#E5E4E2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Horario"
+        android:layout_marginTop="30dp"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+
+
+    <!-- Línea inferior -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+    <!-- Título: Horario -->
+
+
+    <!-- Contenedor para el selector de clase -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp">
+
+        <!-- Etiqueta Curso -->
+        <TextView
+            android:id="@+id/class_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curso: 2024 - 2025"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Desplegable Curso-->
+        <Spinner
+            android:id="@+id/class_selector"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_spinner"
+
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Imagen del horario -->
+    <ImageView
+        android:id="@+id/schedule_table"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/horario_alumno"
+        android:contentDescription="Tabla de horario"
+        android:scaleType="fitCenter" />
+
+    <!-- Botón editar horario -->
+    <TextView
+        android:id="@+id/editar_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Editar horario"
+        android:textColor="#0D99FF"
+        android:layout_gravity="end"
+        android:layout_marginEnd="25dp"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+    <!-- Botón Descargar PDF -->
+    <Button
+        android:id="@+id/download_pdf_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descargar PDF"
+        android:layout_margin="16dp"
+        android:backgroundTint="#2596BE"
+        android:textColor="#FFFFFF" />
+    <ImageView
+        android:id="@+id/logoBWImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_blanconegro"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="Logo"
+        android:layout_gravity="end" />
+
+    <!-- Barra de navegación inferior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:layout_gravity="bottom"
+        android:padding="8dp"
+        android:elevation="8dp">
+
+        <!-- Botón Horario -->
+        <Button
+            android:id="@+id/btn_schedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_horario_azul"
+            android:drawablePadding="8dp"
+            android:background="FFFFFFF"
+            android:text="Horario"
+            android:textSize="12sp"
+            android:textColor="#2596BE"
+            android:gravity="center" />
+
+        <!-- Botón Registros -->
+
+        <!-- Botón Asistencias -->
+
+        <Button
+            android:id="@+id/btn_registro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="FFFFFFF"
+            android:drawableTop="@drawable/ic_registro"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="Registro"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_attendance"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="FFFFFF"
+            android:drawableTop="@drawable/ic_asistencias"
+            android:drawablePadding="9dp"
+            android:gravity="center"
+            android:text="Asistencias"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <!-- Botón Perfil -->
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_perfil"
+            android:drawablePadding="8dp"
+            android:background="FFFFFFF"
+            android:text="Perfil"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

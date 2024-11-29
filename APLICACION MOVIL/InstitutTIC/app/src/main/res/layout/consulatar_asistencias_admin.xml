@@ -13,7 +13,7 @@
         android:layout_height="50dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="Asistencias"
+        android:text="Consultar asistencias"
         android:layout_marginTop="30dp"
         android:textSize="22dp"
         android:textStyle="bold" />
@@ -51,7 +51,7 @@
             android:layout_marginStart="30dp"
             android:layout_marginEnd="8dp"
             android:contentDescription="Ícono Asistencias Hoy"
-            android:src="@drawable/asistenciashoy" />
+            android:src="@drawable/ic_registro_accesos" />
 
         <!-- Botón con texto -->
         <Button
@@ -61,7 +61,7 @@
             android:layout_weight="1"
             android:background="@null"
             android:gravity="start|center_vertical"
-            android:text="Asistencias HOY"
+            android:text="Registro de accesos de alumnos"
             android:textColor="#000000"
             android:backgroundTint="#E5E4E2"
             android:textSize="14sp"
