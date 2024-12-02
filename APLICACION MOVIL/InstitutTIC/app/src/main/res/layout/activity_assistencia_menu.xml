@@ -21,11 +21,11 @@
         android:layout_width="250dp"
         android:layout_height="100dp"
         android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
         android:textColor="@color/black"
         android:text="¿Que deseas ver ahora?"
-        android:textSize="32dp"/>
+        android:textSize="28dp"/>
 
 
     <!-- Línea superior -->
@@ -44,14 +44,17 @@
         android:background="#E5E4E2">
 
         <!-- Ícono  -->
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
-            android:layout_height="24dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="8dp"
-            android:contentDescription="Ícono Asistencias Hoy"
-            android:src="@drawable/asistenciashoy" />
+            android:padding="6dp"
+            android:backgroundTint="#2596BE"
+            android:background="@drawable/rounded_box_background"
+            android:src="@drawable/asistenciasHoy" />
+
 
         <!-- Botón con texto -->
         <Button
@@ -64,7 +67,7 @@
             android:text="Asistencias HOY"
             android:textColor="#000000"
             android:backgroundTint="#E5E4E2"
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:padding="8dp" />
     </LinearLayout>
 
@@ -87,18 +90,19 @@
         android:background="#E5E4E2">
 
         <!-- Ícono  -->
-        <ImageView
-            android:id="@+id/imageView2"
+        <ImageButton
+            android:id="@+id/imageView3"
             android:layout_width="wrap_content"
-            android:layout_height="24dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginEnd="8dp"
-            android:contentDescription="Ícono Asistencias Hoy"
-            android:src="@drawable/consultaasistencia" />
+            android:padding="6dp"
+            android:backgroundTint="#2596BE"
+            android:background="@drawable/rounded_box_background"            android:src="@drawable/consultaasistencia" />
 
         <!-- Botón con texto -->
         <Button
-            android:id="@+id/btn_asistencias_hoy"
+            android:id="@+id/btn_consultar_asssistencia"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -107,7 +111,7 @@
             android:text="Consultar asistencias "
             android:textColor="#000000"
             android:backgroundTint="#E5E4E2"
-            android:textSize="14sp"
+            android:textSize="18sp"
             android:padding="8dp" />
     </LinearLayout>
 
@@ -124,7 +128,7 @@
         android:gravity="center"
         android:layout_marginTop="40dp"
         android:textColor="@color/black"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="20dp"
         android:text="En caso de error, por favor contacte con el administrador a través del correo electrónico: admin@gmail.com."
         android:textSize="14dp"/>
 
