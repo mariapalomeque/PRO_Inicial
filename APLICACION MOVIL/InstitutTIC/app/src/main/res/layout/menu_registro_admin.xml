@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#E5E4E2">
+
+
+    <!-- Línea superior -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="Registros"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="90dp"
+        android:gravity="left"
+        android:text="@string/alumnos"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="#E5E4E2">
+
+        <!-- Ícono  -->
+        <ImageButton
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/rounded_box_background"
+            android:backgroundTint="#2596BE"
+            android:contentDescription="TODO"
+            android:padding="6dp"
+            android:src="@drawable/ic_nuevo_registro" />
+
+
+        <!-- Botón con texto -->
+        <Button
+            android:id="@+id/btn_asistencias_hoy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="start|center_vertical"
+            android:text="Registar nuevo alumno"
+            android:textColor="#000000"
+            android:backgroundTint="#E5E4E2"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Línea inferior -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <!-- Botón editar alumno -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E5E4E2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Ícono  -->
+        <ImageButton
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="TODO"
+            android:padding="6dp"
+            android:backgroundTint="#2596BE"
+            android:background="@drawable/rounded_box_background"
+            android:src="@drawable/ic_editar_registro"
+            tools:ignore="DuplicateIds,ExtraText" />
+
+        <!-- Botón con texto -->
+        <Button
+            android:id="@+id/btn_consultar_asssistencia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="start|center_vertical"
+            android:text="Editar / Eliminar alumno "
+            android:textColor="#000000"
+            android:backgroundTint="#E5E4E2"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+
+    </LinearLayout>
+
+    <!-- Línea inferior -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="90dp"
+        android:gravity="left"
+        android:text="Profesores"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="#E5E4E2">
+
+        <!-- Ícono  -->
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="TODO"
+            android:padding="6dp"
+            android:backgroundTint="#2596BE"
+            android:background="@drawable/rounded_box_background"
+            android:src="@drawable/ic_nuevo_registro" />
+
+
+        <!-- Botón con texto -->
+        <Button
+            android:id="@+id/botonnuevoprofe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="start|center_vertical"
+            android:text="Registar nuevo profesor"
+            android:textColor="#000000"
+            android:backgroundTint="#E5E4E2"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- Línea inferior -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <!-- Botón editar alumno -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E5E4E2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Ícono  -->
+        <ImageButton
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="TODO"
+            android:padding="6dp"
+            android:backgroundTint="#2596BE"
+            android:background="@drawable/rounded_box_background"
+            android:src="@drawable/ic_editar_registro" />
+
+        <!-- Botón con texto -->
+        <Button
+            android:id="@+id/botoneditarprofe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="start|center_vertical"
+            android:text="Editar / Eliminar profesor "
+            android:textColor="#000000"
+            android:backgroundTint="#E5E4E2"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+
+    </LinearLayout>
+
+    <!-- Línea inferior -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <ImageView
+        android:id="@+id/logoBWImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_blanconegro"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="Logo"
+        android:layout_gravity="end" />
+
+    <!-- Barra de navegación inferior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="122dp"
+        android:layout_gravity="bottom"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Botón Horario -->
+        <Button
+            android:id="@+id/btn_schedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="FFFFFFF"
+            android:drawableTop="@drawable/ic_horario_azul"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="Horario"
+            android:textColor="#2596BE"
+            android:textSize="12sp" />
+
+        <!-- Botón Registros -->
+
+        <!-- Botón Asistencias -->
+
+        <Button
+            android:id="@+id/btn_registro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="FFFFFFF"
+            android:drawableTop="@drawable/ic_registro"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="Registro"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_attendance"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="FFFFFF"
+            android:drawableTop="@drawable/ic_asistencias"
+            android:drawablePadding="9dp"
+            android:gravity="center"
+            android:text="Asistencias"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+
+        <!-- Botón Perfil -->
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="FFFFFFF"
+            android:drawableTop="@drawable/ic_perfil"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="Perfil"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

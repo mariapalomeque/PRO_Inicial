@@ -29,6 +29,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginTop="20dp"
         android:background="@color/white"
         android:gravity="center"
         android:text="Inicia sesión"
@@ -42,27 +43,66 @@
         android:orientation="vertical"
         android:padding="24dp">
 
-        <!-- Correo -->
-        <EditText
-            android:id="@+id/emailField"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Introduce tu correo"
-            android:inputType="textEmailAddress"
-            android:background="@drawable/rounded_edit_text"
-            android:padding="12dp"
-            android:layout_marginTop="12dp" />
+            android:orientation="vertical"
+            android:padding="16dp">
 
-        <!-- Contraseña -->
-        <EditText
-            android:id="@+id/passwordField"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Introduce la contraseña"
-            android:inputType="textPassword"
-            android:background="@drawable/rounded_edit_text"
-            android:padding="12dp"
-            android:layout_marginTop="12dp" />
+            <!-- Bloque inicio sesion -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:padding="16dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Correo:"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="8dp" />
+                <!-- Correo -->
+                <EditText
+                    android:id="@+id/emailField"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Introduce tu correo"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/rounded_edit_text"
+                    android:padding="12dp"
+                    android:layout_marginTop="12dp" />
+
+                <View
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CCCCCC" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Contraseña:"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:layout_marginBottom="8dp" />
+                <!-- Correo -->
+                <EditText
+                    android:id="@+id/contraseña"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Introduce tu correo"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/rounded_edit_text"
+                    android:padding="12dp"
+                    android:layout_marginTop="12dp" />
+            </LinearLayout>
 
         <!-- Botón Iniciar Sesión -->
         <Button

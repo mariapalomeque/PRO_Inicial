@@ -53,7 +53,7 @@
             android:padding="6dp"
             android:backgroundTint="#2596BE"
             android:background="@drawable/rounded_box_background"
-            android:src="@drawable/asistenciasHoy" />
+            android:src="@drawable/asistenciashoy" />
 
 
         <!-- Botón con texto -->
