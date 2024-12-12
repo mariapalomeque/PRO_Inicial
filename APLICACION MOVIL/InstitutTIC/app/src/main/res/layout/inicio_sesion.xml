@@ -108,10 +108,11 @@
         <Button
             android:id="@+id/loginButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:text="Iniciar sesión"
             android:backgroundTint="#2596BE"
             android:textColor="#FFFFFF"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
     </LinearLayout>
 </LinearLayout>

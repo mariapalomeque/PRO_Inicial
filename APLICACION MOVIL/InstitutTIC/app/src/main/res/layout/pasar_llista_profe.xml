@@ -98,6 +98,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:backgroundTint="@drawable/circle_background"
                         android:layout_margin="4dp"
                         android:text="Retraso"
                         android:textSize="12sp" />

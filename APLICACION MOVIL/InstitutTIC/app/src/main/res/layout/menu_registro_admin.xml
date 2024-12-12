@@ -128,9 +128,7 @@
         android:layout_height="1dp"
         android:background="#CCCCCC" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+
 
 
     <TextView
@@ -264,7 +262,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="FFFFFFF"
+            android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_horario_azul"
             android:drawablePadding="8dp"
             android:gravity="center"
@@ -281,7 +279,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="FFFFFFF"
+            android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_registro"
             android:drawablePadding="8dp"
             android:gravity="center"
@@ -294,7 +292,7 @@
             android:layout_width="16dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="FFFFFF"
+            android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_asistencias"
             android:drawablePadding="9dp"
             android:gravity="center"
@@ -308,7 +306,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="FFFFFFF"
+            android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_perfil"
             android:drawablePadding="8dp"
             android:gravity="center"
