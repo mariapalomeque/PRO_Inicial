@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E5E4E2">
+
+    <!-- Contenido principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Consultar asistencias"
+            android:layout_marginTop="30dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="¿Que deseas ver ahora?"
+                android:textSize="28dp"/>
+        </LinearLayout>
+
+        <!-- Línea superior -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:background="#E5E4E2">
+
+            <!-- Ícono  -->
+            <ImageButton
+                android:id="@+id/imageView2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="8dp"
+                android:padding="6dp"
+                android:backgroundTint="#2596BE"
+                android:background="@drawable/rounded_box_background"
+                android:src="@drawable/consultaasistencia" />
+
+            <!-- Botón con texto -->
+            <Button
+                android:id="@+id/btn_asistencias_hoy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="start|center_vertical"
+                android:text="Consultar asistencias  "
+                android:textColor="#000000"
+                android:backgroundTint="#E5E4E2"
+                android:textSize="18sp"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <!-- Línea inferior -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC" />
+
+        <!-- Botón Consultar Asistencias -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:background="#E5E4E2">
+
+            <!-- Ícono  -->
+            <ImageButton
+                android:id="@+id/imageView3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="8dp"
+                android:padding="6dp"
+                android:backgroundTint="#2596BE"
+                android:background="@drawable/rounded_box_background"
+                android:src="@drawable/ic_accesos" />
+
+            <!-- Botón con texto -->
+            <Button
+                android:id="@+id/btn_consultar_asssistencia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="start|center_vertical"
+                android:text="Registro de accesos de alumnos"
+                android:textColor="#000000"
+                android:backgroundTint="#E5E4E2"
+                android:textSize="18sp"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <!-- Línea inferior -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC" />
+
+        <ImageView
+            android:id="@+id/logoBWImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/logo_blanconegro"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="Logo"
+            android:layout_gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Barra de navegación inferior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:padding="8dp"
+        android:elevation="8dp"
+        android:layout_alignParentBottom="true">
+
+        <!-- Botón Horario -->
+        <Button
+            android:id="@+id/btn_schedule"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_horario"
+            android:drawablePadding="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Horario"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+        <!-- Botón Registros -->
+        <Button
+            android:id="@+id/btn_registro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_registro"
+            android:drawablePadding="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Registro"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:gravity="center" />
+
+        <!-- Botón Asistencias -->
+        <Button
+            android:id="@+id/btn_attendance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_asistencia_azul"
+            android:drawablePadding="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Asistencias"
+            android:textColor="#2596BE"
+            android:textSize="9.5sp"
+            android:gravity="center" />
+
+        <!-- Botón Perfil -->
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_perfil"
+            android:drawablePadding="8dp"
+            android:backgroundTint="@color/white"
+            android:text="Perfil"
+            android:textSize="12sp"
+            android:textColor="#000000"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>
