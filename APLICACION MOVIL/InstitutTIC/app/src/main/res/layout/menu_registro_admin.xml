@@ -264,11 +264,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
-            android:drawableTop="@drawable/ic_horario_azul"
+            android:drawableTop="@drawable/ic_horario"
             android:drawablePadding="8dp"
             android:gravity="center"
             android:text="Horario"
-            android:textColor="#2596BE"
+            android:textColor="#000000"
             android:textSize="12sp" />
 
         <!-- Botón Registros -->
@@ -281,11 +281,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
-            android:drawableTop="@drawable/ic_registro"
+            android:drawableTop="@drawable/ic_registro_azul"
             android:drawablePadding="8dp"
             android:gravity="center"
             android:text="Registro"
-            android:textColor="#000000"
+            android:textColor="#2596BE"
             android:textSize="12sp" />
 
         <Button
