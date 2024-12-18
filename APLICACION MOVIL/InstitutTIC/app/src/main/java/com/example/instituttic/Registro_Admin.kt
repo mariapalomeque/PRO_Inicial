@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Spinner
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -28,6 +29,19 @@ class Registro_Admin : AppCompatActivity() {
         val registroButton = findViewById<Button>(R.id.btn_registro)
         val asistenciasButton = findViewById<Button>(R.id.btn_asistencias)
         val perfilButton = findViewById<Button>(R.id.btn_perfil)
+        val reg_alum_image = findViewById<ImageButton>(R.id.buton_register_new_alum)
+        val reg_alum_but = findViewById<Button>(R.id.btn_regis_alum_nuevo)
+
+
+        reg_alum_but.setOnClickListener {
+            val intent = Intent(this, Registro_nuevo_alumno::class.java)
+            startActivity(intent)
+        }
+        reg_alum_image.setOnClickListener {
+            val intent = Intent(this, Registro_nuevo_alumno::class.java)
+            startActivity(intent)
+        }
+
 
         horarioButton.setOnClickListener {
             val intent = Intent(this, Horario_Admin::class.java)

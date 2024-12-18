@@ -50,7 +50,7 @@
 
         <!-- Ícono  -->
         <ImageButton
-            android:id="@+id/imageView2"
+            android:id="@+id/buton_register_new_alum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -64,7 +64,7 @@
 
         <!-- Botón con texto -->
         <Button
-            android:id="@+id/btn_asistencias_hoy"
+            android:id="@+id/btn_regis_alum_nuevo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

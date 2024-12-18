@@ -57,6 +57,10 @@
             android:exported="true">
 
         </activity>
+        <activity android:name=".Registro_nuevo_alumno"
+            android:exported="true">
+
+        </activity>
     </application>
 
 </manifest>
