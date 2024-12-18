@@ -2,17 +2,17 @@ package com.example.instituttic
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class Asistencias_Alum : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.asistencias_alumno)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -20,16 +20,20 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        // INSERT
-        val btnLogin = findViewById<Button>(R.id.but_Alum)
-        btnLogin.setOnClickListener {
-            val intent = Intent(this, Inicio_Sesion::class.java)
+        val horarioButton = findViewById<Button>(R.id.btn_horario)
+        val asistenciasButton = findViewById<Button>(R.id.btn_asistencias)
+        val perfilButton = findViewById<Button>(R.id.btn_perfil)
+
+        horarioButton.setOnClickListener {
+            val intent = Intent(this, Horario_Alum::class.java)
             startActivity(intent)
         }
-
-        val btnLoginAdmin = findViewById<Button>(R.id.ButAdmin)
-        btnLoginAdmin.setOnClickListener {
-            val intent = Intent(this, Inicio_Sesion_Admin::class.java)
+        asistenciasButton.setOnClickListener {
+            val intent = Intent(this, Asistencias_Alum::class.java)
+            startActivity(intent)
+        }
+        perfilButton.setOnClickListener {
+            val intent = Intent(this, Perfil_Alum::class.java)
             startActivity(intent)
         }
     }
