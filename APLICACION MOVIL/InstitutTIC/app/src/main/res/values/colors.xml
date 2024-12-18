@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <string-array name="cursos_array">
+        <item>DAM1A</item>
+        <item>DAM1B</item>
+        <item>DAM2A</item>
+        <item>DAM2B</item>
+        <item>DAW1A</item>
+        <item>DAW1B</item>
+        <item>ASIX1A</item>
+        <item>ASIX1B</item>
+    </string-array>
 </resources>

@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:gravity="center"
+    android:id="@+id/main"
     android:orientation="vertical"
     android:background="#E5E4E2">
     <!-- Título: Horario -->
@@ -190,6 +191,7 @@
     </LinearLayout>
 
     <!-- Barra de navegación inferior -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -200,51 +202,63 @@
         android:padding="8dp"
         android:elevation="8dp">
 
-
-
         <!-- Botón Horario -->
         <Button
-            android:id="@+id/btn_schedule"
+            android:id="@+id/btn_horario"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawableTop="@drawable/ic_horario"
             android:drawablePadding="8dp"
-            android:background="@null"
+            android:backgroundTint="@color/white"
             android:text="Horario"
             android:textSize="12sp"
             android:textColor="#000000"
-            android:backgroundTint="@color/white"
             android:gravity="center" />
 
+        <!-- Botón Registros -->
+
         <!-- Botón Asistencias -->
+
         <Button
-            android:id="@+id/btn_attendance"
+            android:id="@+id/btn_registro"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:drawableTop="@drawable/ic_asistencias"
-            android:drawablePadding="8dp"
-            android:background="@null"
-            android:text="Asistencias"
-            android:textSize="12sp"
-            android:textColor="#000000"
             android:backgroundTint="@color/white"
-            android:gravity="center" />
+            android:drawableTop="@drawable/ic_registro"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:text="Registro"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_asistencias"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:drawableTop="@drawable/ic_asistencias"
+            android:drawablePadding="9dp"
+            android:gravity="center"
+            android:text="Asistencias"
+            android:textColor="#000000"
+            android:textSize="10sp" />
 
         <!-- Botón Perfil -->
         <Button
-            android:id="@+id/btn_profile"
+            android:id="@+id/btn_perfil"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawableTop="@drawable/ic_perfil"
             android:drawablePadding="8dp"
-            android:background="@null"
+            android:backgroundTint="@color/white"
             android:text="Perfil"
             android:textSize="12sp"
             android:textColor="#2596BE"
-            android:backgroundTint="@color/white"
             android:gravity="center" />
     </LinearLayout>
+
 </LinearLayout>

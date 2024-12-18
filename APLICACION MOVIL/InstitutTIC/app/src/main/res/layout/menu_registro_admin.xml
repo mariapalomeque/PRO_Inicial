@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:gravity="center"
+    android:id="@+id/main"
     android:orientation="vertical"
     android:background="#E5E4E2">
 
@@ -49,7 +50,7 @@
 
         <!-- Ícono  -->
         <ImageButton
-            android:id="@+id/imageView2"
+            android:id="@+id/buton_register_new_alum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -63,7 +64,7 @@
 
         <!-- Botón con texto -->
         <Button
-            android:id="@+id/btn_asistencias_hoy"
+            android:id="@+id/btn_regis_alum_nuevo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -258,16 +259,16 @@
 
         <!-- Botón Horario -->
         <Button
-            android:id="@+id/btn_schedule"
+            android:id="@+id/btn_horario"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
-            android:drawableTop="@drawable/ic_horario_azul"
+            android:drawableTop="@drawable/ic_horario"
             android:drawablePadding="8dp"
             android:gravity="center"
             android:text="Horario"
-            android:textColor="#2596BE"
+            android:textColor="#000000"
             android:textSize="12sp" />
 
         <!-- Botón Registros -->
@@ -280,15 +281,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
-            android:drawableTop="@drawable/ic_registro"
+            android:drawableTop="@drawable/ic_registro_azul"
             android:drawablePadding="8dp"
             android:gravity="center"
             android:text="Registro"
-            android:textColor="#000000"
+            android:textColor="#2596BE"
             android:textSize="12sp" />
 
         <Button
-            android:id="@+id/btn_attendance"
+            android:id="@+id/btn_asistencias"
             android:layout_width="16dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -302,7 +303,7 @@
 
         <!-- Botón Perfil -->
         <Button
-            android:id="@+id/btn_profile"
+            android:id="@+id/btn_perfil"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

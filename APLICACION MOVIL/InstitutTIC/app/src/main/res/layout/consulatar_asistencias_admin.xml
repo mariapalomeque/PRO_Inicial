@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
@@ -13,12 +14,60 @@
         android:layout_height="50dp"
         android:background="@color/white"
         android:gravity="center"
-        android:text="Horario"
+        android:text="Consultar asistencias"
         android:layout_marginTop="30dp"
         android:textSize="22dp"
         android:textStyle="bold" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:text="¿Que deseas ver ahora?"
+        android:textSize="32dp"/>
 
 
+    <!-- Línea superior -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="#E5E4E2">
+
+        <!-- Ícono  -->
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Ícono Asistencias Hoy"
+            android:src="@drawable/ic_registro_accesos" />
+
+        <!-- Botón con texto -->
+        <Button
+            android:id="@+id/btn_asistencias_hoy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="start|center_vertical"
+            android:text="Registro de accesos de alumnos"
+            android:textColor="#000000"
+            android:backgroundTint="#E5E4E2"
+            android:textSize="14sp"
+            android:padding="8dp" />
+    </LinearLayout>
 
 
     <!-- Línea inferior -->
@@ -27,69 +76,60 @@
         android:layout_height="1dp"
         android:background="#CCCCCC" />
 
+    <!-- Botón Consultar Asistencias -->
 
 
-    <!-- Contenedor para el selector de clase -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="16dp">
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="#E5E4E2">
 
-        <!-- Etiqueta Curso -->
-        <TextView
-            android:id="@+id/class_label"
+        <!-- Ícono  -->
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Ícono Asistencias Hoy"
+            android:src="@drawable/consultaasistencia" />
+
+        <!-- Botón con texto -->
+        <Button
+            android:id="@+id/btn_asistencias_hoy"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Curso: 2024 - 2025"
-            android:textSize="16sp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="start|center_vertical"
+            android:text="Consultar asistencias "
             android:textColor="#000000"
-            android:layout_marginBottom="8dp" />
-
-        <!-- Desplegable Curso-->
-        <Spinner
-            android:id="@+id/class_selector"
-            android:layout_width="80dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/rounded_spinner"
-
+            android:backgroundTint="#E5E4E2"
+            android:textSize="14sp"
             android:padding="8dp" />
     </LinearLayout>
 
-    <!-- Imagen del horario -->
-    <ImageView
-        android:id="@+id/schedule_table"
+    <!-- Línea inferior -->
+    <View
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:src="@drawable/horario_alumno"
-        android:contentDescription="Tabla de horario"
-        android:scaleType="fitCenter" />
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
 
-    <!-- Botón editar horario -->
+
     <TextView
-        android:id="@+id/editar_horario"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:text="Editar horario"
-        android:textColor="#0D99FF"
-        android:layout_gravity="end"
-        android:layout_marginEnd="25dp"
-        android:textStyle="bold"
-        android:textSize="16sp" />
-    <!-- Botón Descargar PDF -->
-    <Button
-        android:id="@+id/download_pdf_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Descargar PDF"
-        android:layout_margin="16dp"
-        android:backgroundTint="#2596BE"
-        android:textColor="#FFFFFF" />
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        android:text="En caso de error, por favor contacte con el administrador a través del correo electrónico: admin@gmail.com."
+        android:textSize="14dp"/>
+
+
     <ImageView
         android:id="@+id/logoBWImage"
         android:layout_width="100dp"
@@ -99,7 +139,6 @@
         android:contentDescription="Logo"
         android:layout_gravity="end" />
 
-    <!-- Barra de navegación inferior -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -116,13 +155,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:drawableTop="@drawable/ic_horario_azul"
+            android:drawableTop="@drawable/ic_horario"
             android:drawablePadding="8dp"
             android:backgroundTint="@color/white"
             android:text="Horario"
             android:textSize="12sp"
-            android:textColor="#2596BE"
-                android:gravity="center" />
+            android:textColor="#000000"
+            android:gravity="center" />
 
         <!-- Botón Registros -->
 
@@ -147,11 +186,11 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
-            android:drawableTop="@drawable/ic_asistencias"
+            android:drawableTop="@drawable/ic_asistencia_azul"
             android:drawablePadding="9dp"
             android:gravity="center"
             android:text="Asistencias"
-            android:textColor="#000000"
+            android:textColor="#2596BE"
             android:textSize="10sp" />
 
         <!-- Botón Perfil -->
