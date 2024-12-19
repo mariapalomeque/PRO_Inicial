@@ -1,239 +1,269 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="center"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:background="#E5E4E2">
-
-    <TextView
-        android:id="@+id/nombre_clase_listaprofe"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@color/white"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:gravity="center"
-        android:text="nombre de la clase"
-        android:layout_marginTop="30dp"
-        android:textSize="22dp"
-        android:textStyle="bold" />
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:background="#E5E4E2">
 
-
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2 de Octubre 2024"
-        android:layout_gravity="start"
-        android:textStyle="bold"
-        android:layout_margin="16dp"/>
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#CCCCCC" />
-
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:fillViewport="true"
-        android:elevation="10dp"
-        android:layout_marginBottom="10dp">
-
-        <LinearLayout
+        <TextView
+            android:id="@+id/nombre_clase_listaprofe"
             android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="nombre de la clase"
+            android:layout_marginTop="30dp"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp">
+            android:text="2 de Octubre 2024"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:layout_margin="16dp"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:fillViewport="true"
+            android:elevation="10dp"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@drawable/rounded_box_background"
-                android:padding="8dp">
+                android:padding="16dp">
 
-                <!-- Primer LinearLayout: Nombre + Botón único -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="start">
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_box_background"
+                    android:padding="8dp">
 
-                    <!-- Nombre del alumno -->
-                    <TextView
-                        android:id="@+id/nombre_alum_lista_profe"
-                        android:layout_width="0dp"
+                    <!-- Primer LinearLayout: Nombre + Botón único -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="2"
-                        android:text="Paola López Gómez"
-                        android:textStyle="bold"
-                        android:textSize="16sp" />
+                        android:orientation="horizontal"
+                        android:gravity="start">
 
-                    <!-- Botón de asistencia -->
-                    <Button
-                        android:id="@+id/btn_asistencia"
-                        android:layout_width="0dp"
+                        <!-- Nombre del alumno -->
+                        <TextView
+                            android:id="@+id/nombre_alum_lista_profe"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Paola López Gómez"
+                            android:textStyle="bold"
+                            android:textSize="16sp" />
+
+                        <!-- Botón de asistencia -->
+                        <Button
+                            android:id="@+id/btn_asistencia"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="#2596BE"
+                            android:layout_marginStart="8dp"
+                            android:text="Asistencia"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <!-- Segundo LinearLayout: Tres botones abajo -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="#2596BE"
-                        android:layout_marginStart="8dp"
-                        android:text="Asistencia"
-                        android:textSize="12sp" />
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center">
+
+                        <!-- Botón 1: Retraso -->
+                        <Button
+                            android:id="@+id/btn_retraso"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black"
+                            android:layout_margin="4dp"
+                            android:text="Retraso"
+                            android:textSize="12sp" />
+
+                        <!-- Botón 2: Falta -->
+                        <Button
+                            android:id="@+id/btn_falta"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/black"
+
+                            android:layout_margin="4dp"
+                            android:text="Falta"
+                            android:textSize="12sp" />
+
+                        <!-- Botón 3: Falta justificada -->
+                        <Button
+                            android:id="@+id/btn_falta_justificada"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/black"
+                            android:layout_weight="1"
+                            android:layout_margin="4dp"
+                            android:text="Falta justificada"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
                 </LinearLayout>
 
-                <!-- Segundo LinearLayout: Tres botones abajo -->
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="8dp"
-                    android:gravity="center">
 
-                    <!-- Botón 1: Retraso -->
-                    <Button
-                        android:id="@+id/btn_retraso"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:backgroundTint="@drawable/circle_background"
-                        android:layout_margin="4dp"
-                        android:text="Retraso"
-                        android:textSize="12sp" />
-
-                    <!-- Botón 2: Falta -->
-                    <Button
-                        android:id="@+id/btn_falta"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:text="Falta"
-                        android:textSize="12sp" />
-
-                    <!-- Botón 3: Falta justificada -->
-                    <Button
-                        android:id="@+id/btn_falta_justificada"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_margin="4dp"
-                        android:text="Falta justificada"
-                        android:textSize="12sp" />
-                </LinearLayout>
             </LinearLayout>
-
-
-        </LinearLayout>
-    </ScrollView>
+        </ScrollView>
 
 
 
-    <ImageView
-        android:id="@+id/logoBWImage"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/logo_blanconegro"
-        android:layout_marginEnd="20dp"
-        android:contentDescription="Logo"
-        android:layout_gravity="end" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingHorizontal="16dp">
+
+        <Button
+            android:id="@+id/but_buscar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#2596BE"
+            android:layout_marginStart="8dp"
+            android:text="Modificar"
+            android:textSize="12sp" />
+
+
+
+
+        <ImageView
+            android:id="@+id/logoBWImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_blanconegro"
+            android:contentDescription="Logo" />
+    </LinearLayout>
+
+
+
 
 
     <!-- Barra de navegación inferior -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:background="#FFFFFF"
-        android:layout_gravity="bottom"
-        android:padding="8dp"
-        android:elevation="8dp">
-
-        <!-- Botón Horario -->
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:orientation="horizontal"
             android:gravity="center"
-            android:orientation="vertical"
-            android:padding="4dp"
-            android:clickable="true"
-            android:focusable="true">
+            android:background="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:padding="8dp"
+            android:elevation="8dp">
 
-            <ImageView
-                android:id="@+id/nav_schedule_icon"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_horario"
-                android:contentDescription="Horario" />
-
-            <TextView
-                android:id="@+id/nav_schedule_text"
-                android:layout_width="wrap_content"
+            <!-- Botón Horario -->
+            <LinearLayout
+                android:id="@+id/btn_horario"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Horario"
-                android:textSize="12sp"
-                android:textColor="#000000"
-                android:gravity="center" />
-        </LinearLayout>
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true">
 
-        <!-- Botón Asistencias -->
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="4dp"
-            android:clickable="true"
-            android:focusable="true">
+                <ImageView
+                    android:id="@+id/nav_schedule_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_horario"
+                    android:contentDescription="Horario" />
 
-            <ImageView
-                android:id="@+id/nav_attendance_icon"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_asistencia_azul"
-                android:contentDescription="Asistencias" />
+                <TextView
+                    android:id="@+id/nav_schedule_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Horario"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:gravity="center" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/nav_attendance_text"
-                android:layout_width="wrap_content"
+            <!-- Botón Asistencias -->
+            <LinearLayout
+                android:id="@+id/btn_asistencias"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Asistencias"
-                android:textSize="12sp"
-                android:textColor="#2596BE"
-                android:gravity="center" />
-        </LinearLayout>
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true">
 
-        <!-- Botón Perfil -->
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="4dp"
-            android:clickable="true"
-            android:focusable="true">
+                <ImageView
+                    android:id="@+id/nav_attendance_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_asistencia_azul"
+                    android:contentDescription="Asistencias" />
 
-            <ImageView
-                android:id="@+id/nav_profile_icon"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:contentDescription="Perfil"
-                android:src="@drawable/ic_perfil" />
+                <TextView
+                    android:id="@+id/nav_attendance_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asistencias"
+                    android:textSize="12sp"
+                    android:textColor="#2596BE"
+                    android:gravity="center" />
+            </LinearLayout>
 
-            <TextView
-                android:id="@+id/nav_profile_text"
-                android:layout_width="wrap_content"
+            <!-- Botón Perfil -->
+            <LinearLayout
+                android:id="@+id/btn_perfil"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Perfil"
-                android:textSize="12sp"
-                android:textColor="#000000"
-                android:gravity="center" />
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/nav_profile_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="Perfil"
+                    android:src="@drawable/ic_perfil" />
+
+                <TextView
+                    android:id="@+id/nav_profile_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perfil"
+                    android:textSize="12sp"
+                    android:textColor="#000000"
+                    android:gravity="center" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
-</LinearLayout>

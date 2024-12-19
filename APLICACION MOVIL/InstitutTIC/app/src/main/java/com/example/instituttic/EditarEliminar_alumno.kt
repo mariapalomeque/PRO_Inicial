@@ -1,64 +1,42 @@
 package com.example.instituttic
 
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.ImageButton
-import android.widget.Spinner
+import android.widget.*
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Registro_Admin : AppCompatActivity() {
+class EditarEliminar_alumno : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.menu_registro_admin)
+        setContentView(R.layout.editar_eliminar_alumno)
 
-        // Ajustar padding para las barras del sistema
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
-
         val horarioButton = findViewById<Button>(R.id.btn_horario)
         val registroButton = findViewById<Button>(R.id.btn_registro)
         val asistenciasButton = findViewById<Button>(R.id.btn_asistencias)
         val perfilButton = findViewById<Button>(R.id.btn_perfil)
-        val reg_alum_image = findViewById<ImageButton>(R.id.buton_register_new_alum)
-        val reg_alum_but = findViewById<Button>(R.id.btn_regis_alum_nuevo)
-        val edit_elim_image = findViewById<ImageButton>(R.id.Editar_eliminar_image)
-        val edit_elim_but = findViewById<Button>(R.id.edit_elim_but)
 
+        val guardarEdicionButton = findViewById<Button>(R.id.guardaredicion)
+        val eliminarCuentaButton = findViewById<Button>(R.id.but_eliminar_cuenta)
 
-
-
-
-        reg_alum_but.setOnClickListener {
-            val intent = Intent(this, EditarEliminar_alumno::class.java)
-            startActivity(intent)
-        }
-        reg_alum_image.setOnClickListener {
-            val intent = Intent(this, EditarEliminar_alumno::class.java)
-            startActivity(intent)
+        guardarEdicionButton.setOnClickListener {
+            Toast.makeText(this, "¡Usuario modificado correctamente!", Toast.LENGTH_SHORT).show()
         }
 
-        edit_elim_image.setOnClickListener {
-            val intent = Intent(this, EditarEliminar_alumno::class.java)
-            startActivity(intent)
+        eliminarCuentaButton.setOnClickListener {
+            mostrarDialogoConfirmacion()
         }
-        edit_elim_but.setOnClickListener {
-            val intent = Intent(this, EditarEliminar_alumno::class.java)
-            startActivity(intent)
-        }
-
-
-
-
 
         horarioButton.setOnClickListener {
             val intent = Intent(this, Horario_Admin::class.java)
@@ -68,7 +46,6 @@ class Registro_Admin : AppCompatActivity() {
             val intent = Intent(this, Asistencias_Admin::class.java)
             startActivity(intent)
         }
-
         perfilButton.setOnClickListener {
             val intent = Intent(this, Perfil_Admin::class.java)
             startActivity(intent)
@@ -77,8 +54,23 @@ class Registro_Admin : AppCompatActivity() {
             val intent = Intent(this, Registro_Admin::class.java)
             startActivity(intent)
         }
+    }
 
+    private fun mostrarDialogoConfirmacion() {
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Confirmación de eliminación")
+        builder.setMessage("¿Estás seguro de que quieres eliminar esta cuenta?")
 
+        builder.setPositiveButton("Sí") { dialog, _ ->
+            Toast.makeText(this, "¡Cuenta eliminada!", Toast.LENGTH_SHORT).show()
+            dialog.dismiss()
+        }
 
+        builder.setNegativeButton("No") { dialog, _ ->
+            dialog.dismiss()
+        }
+
+        val dialog: AlertDialog = builder.create()
+        dialog.show()
     }
 }

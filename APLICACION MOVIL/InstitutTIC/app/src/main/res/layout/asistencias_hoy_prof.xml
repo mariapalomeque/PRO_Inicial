@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:id="@+id/main"
     android:gravity="center"
     android:orientation="vertical"
     android:background="#E5E4E2">
@@ -46,6 +47,7 @@
             android:padding="16dp">
 
             <LinearLayout
+                android:id="@+id/asignatura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
@@ -204,6 +206,7 @@
 
         <!-- Botón Horario -->
         <LinearLayout
+            android:id="@+id/btn_horario"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -232,6 +235,7 @@
 
         <!-- Botón Asistencias -->
         <LinearLayout
+            android:id="@+id/btn_asistencias"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -260,6 +264,7 @@
 
         <!-- Botón Perfil -->
         <LinearLayout
+            android:id="@+id/btn_perfil"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

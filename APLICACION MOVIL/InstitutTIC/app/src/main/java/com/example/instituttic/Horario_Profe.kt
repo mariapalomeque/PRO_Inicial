@@ -11,11 +11,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Horario_Alum : AppCompatActivity() {
+class Horario_Profe : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.horario_alumno)
+        setContentView(R.layout.horario_profesor)
 
         // Ajustar padding para las barras del sistema
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -24,17 +24,8 @@ class Horario_Alum : AppCompatActivity() {
             insets
         }
 
-        val spinner = findViewById<Spinner>(R.id.class_selector)
-        val cursosArray = resources.getStringArray(R.array.cursos_array)
 
-        val adapter = ArrayAdapter(
-            this,
-            android.R.layout.simple_spinner_item,
-            cursosArray
-        )
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
 
-        spinner.adapter = adapter
 
         val horarioButton = findViewById<Button>(R.id.btn_horario)
         val asistenciasButton = findViewById<Button>(R.id.btn_asistencias)
@@ -47,16 +38,16 @@ class Horario_Alum : AppCompatActivity() {
         }
 
         horarioButton.setOnClickListener {
-            val intent = Intent(this, Horario_Alum::class.java)
+            val intent = Intent(this, Horario_Profe::class.java)
             startActivity(intent)
         }
         asistenciasButton.setOnClickListener {
-            val intent = Intent(this, Asistencias_Alum::class.java)
+            val intent = Intent(this, Asistencias_Prof::class.java)
             startActivity(intent)
         }
 
         perfilButton.setOnClickListener {
-            val intent = Intent(this, Perfil_Alum::class.java)
+            val intent = Intent(this, Perfil_Profe::class.java)
             startActivity(intent)
         }
 

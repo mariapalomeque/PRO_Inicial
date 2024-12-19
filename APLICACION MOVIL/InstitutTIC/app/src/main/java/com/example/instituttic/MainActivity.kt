@@ -32,5 +32,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Inicio_Sesion_Admin::class.java)
             startActivity(intent)
         }
+
+        val btnLoginProfe = findViewById<Button>(R.id.But_Maestro)
+        btnLoginProfe.setOnClickListener {
+            val intent = Intent(this, Inicio_Sesion_Profe::class.java)
+            startActivity(intent)
+        }
     }
 }

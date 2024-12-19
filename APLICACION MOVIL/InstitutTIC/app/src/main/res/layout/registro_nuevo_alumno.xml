@@ -20,28 +20,77 @@
         android:textStyle="bold" />
 
     <!-- Contenedor de formulario -->
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="16dp"
+        android:fillViewport="true">
 
-        <!-- Bloque Sesión -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:orientation="vertical"
             android:background="#FFFFFF"
             android:elevation="4dp"
-            android:orientation="vertical"
             android:padding="16dp">
+
+            <!-- Campo Nombre -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Nombre:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/nameField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edit_text"
+                android:hint="Introduce tu nombre"
+                android:padding="12dp" />
+
+            <!-- Campo Apellidos -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:text="Apellidos:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/apellidosField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edit_text"
+                android:hint="Introduce tus apellidos"
+                android:padding="12dp" />
+
+            <!-- Campo Teléfono -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:text="Teléfono:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <EditText
+                android:id="@+id/telfField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_edit_text"
+                android:hint="Introduce tu teléfono"
+                android:padding="12dp" />
 
             <!-- Campo Correo -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
                 android:text="Correo:"
                 android:textColor="#000000"
                 android:textSize="16sp" />
@@ -49,18 +98,16 @@
                 android:id="@+id/emailField"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
                 android:background="@drawable/rounded_edit_text"
                 android:hint="Introduce tu correo"
-                android:inputType="textEmailAddress"
                 android:padding="12dp" />
 
             <!-- Campo Contraseña -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
                 android:text="Contraseña:"
                 android:textColor="#000000"
                 android:textSize="16sp" />
@@ -68,7 +115,6 @@
                 android:id="@+id/passwordField"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
                 android:background="@drawable/rounded_edit_text"
                 android:hint="Introduce tu contraseña"
                 android:inputType="textPassword"
@@ -78,8 +124,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
                 android:text="Confirmar contraseña:"
                 android:textColor="#000000"
                 android:textSize="16sp" />
@@ -87,70 +133,73 @@
                 android:id="@+id/confirmPasswordField"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
                 android:background="@drawable/rounded_edit_text"
                 android:hint="Confirma tu contraseña"
                 android:inputType="textPassword"
                 android:padding="12dp" />
-        </LinearLayout>
 
-        <!-- Botón Crear cuenta y logo -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:padding="16dp">
-
-            <!-- Botón Crear cuenta -->
-            <Button
-                android:id="@+id/create_account_buttt"
-                android:layout_width="0dp"
-                android:layout_height="45dp"
-                android:layout_marginEnd="16dp"
-                android:layout_weight="1"
-                android:backgroundTint="#2596BE"
-                android:text="Crear cuenta"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp" />
-
-            <!-- Logo -->
-            <ImageView
-                android:id="@+id/logoBWImage"
+            <!-- Spinner de asignaturas -->
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:contentDescription="Logo"
-                android:src="@drawable/logo_blanconegro" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="8dp"
+                android:text="Asignatura:"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+            <Spinner
+                android:id="@+id/subjectSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_spinner"
+                android:padding="12dp" />
         </LinearLayout>
+    </ScrollView>
+
+    <!-- Botón Crear cuenta y logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <!-- Botón Crear cuenta -->
+        <Button
+            android:id="@+id/create_account_buttt"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2596BE"
+            android:text="Crear cuenta"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoBWImage"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:contentDescription="Logo"
+            android:src="@drawable/logo_blanconegro" />
     </LinearLayout>
 
     <!-- Barra de navegación inferior -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="122dp"
-        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:elevation="8dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="8dp">
 
-        <!-- Botón Horario -->
         <Button
             android:id="@+id/btn_horario"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-<<<<<<< HEAD
-            android:drawableTop="@drawable/ic_horario"
-            android:drawablePadding="8dp"
-            android:background="@null"
-            android:text="Horario"
-            android:textSize="12sp"
-            android:backgroundTint="@color/white"
-            android:textColor="#000000"
-            android:gravity="center" />
-=======
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_horario"
             android:drawablePadding="8dp"
@@ -158,39 +207,21 @@
             android:text="Horario"
             android:textColor="#000000"
             android:textSize="12sp" />
->>>>>>> edf75c1cd4bcf576d2a6281be89636bb5cd14153
-
-        <!-- Botón Registros -->
-
-        <!-- Botón Asistencias -->
-
         <Button
             android:id="@+id/btn_registro"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-<<<<<<< HEAD
-            android:drawableTop="@drawable/ic_registro_azul"
-            android:drawablePadding="8dp"
-            android:background="@null"
-=======
->>>>>>> edf75c1cd4bcf576d2a6281be89636bb5cd14153
             android:backgroundTint="@color/white"
             android:drawableTop="@drawable/ic_registro_azul"
             android:drawablePadding="8dp"
             android:gravity="center"
             android:text="Registro"
             android:textColor="#2596BE"
-<<<<<<< HEAD
-            android:textSize="12sp"
-            android:gravity="center" />
-=======
             android:textSize="12sp" />
->>>>>>> edf75c1cd4bcf576d2a6281be89636bb5cd14153
-
         <Button
             android:id="@+id/btn_asistencias"
-            android:layout_width="16dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/white"
@@ -199,9 +230,7 @@
             android:gravity="center"
             android:text="Asistencias"
             android:textColor="#000000"
-            android:textSize="10sp" />
-
-        <!-- Botón Perfil -->
+            android:textSize="12sp" />
         <Button
             android:id="@+id/btn_perfil"
             android:layout_width="0dp"
@@ -215,5 +244,4 @@
             android:textColor="#000000"
             android:textSize="12sp" />
     </LinearLayout>
-
 </LinearLayout>

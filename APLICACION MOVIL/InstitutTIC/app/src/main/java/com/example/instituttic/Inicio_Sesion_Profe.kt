@@ -10,11 +10,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Inicio_Sesion : AppCompatActivity() {
+class Inicio_Sesion_Profe : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.inicio_sesion)
+        setContentView(R.layout.inicio_sesion_profe)
 
         val edittextCorreo = findViewById<EditText>(R.id.emailField)
         val edittextContrasena = findViewById<EditText>(R.id.contrasenaField)
@@ -49,7 +49,7 @@ class Inicio_Sesion : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            val intent = Intent(this, Horario_Alum::class.java)
+            val intent = Intent(this, Horario_Profe::class.java)
             startActivity(intent)
         }
     }

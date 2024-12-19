@@ -61,6 +61,41 @@
             android:exported="true">
 
         </activity>
+        <activity android:name=".EditarEliminar_alumno"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".Asistencia_hoy_profe"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".Asistencias_Prof"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".Inicio_Sesion_Profe"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".Horario_Profe"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".Perfil_Profe"
+            android:exported="true">
+
+        </activity>
+        <activity android:name=".Pasar_llista_profe"
+            android:exported="true">
+
+        </activity>
+
+        <activity android:name=".ConsultarAsistenciaProfe"
+            android:exported="true">
+
+        </activity>
+
+
     </application>
 
 </manifest>

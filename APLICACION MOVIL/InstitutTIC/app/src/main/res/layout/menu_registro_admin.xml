@@ -94,7 +94,7 @@
 
         <!-- Ícono  -->
         <ImageButton
-            android:id="@+id/imageView9"
+            android:id="@+id/Editar_eliminar_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
@@ -108,7 +108,7 @@
 
         <!-- Botón con texto -->
         <Button
-            android:id="@+id/btn_consultar_asssistencia"
+            android:id="@+id/edit_elim_but"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
